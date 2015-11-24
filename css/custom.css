@@ -33,6 +33,15 @@ body {
 	text-indent: 0.01px;
 }
 
+#InputState {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: url('../img/svg/arrow_up.svg') no-repeat;
+	background-position:  right 10px center;
+	background-size: 15px 8px;
+	text-indent: 0.01px;
+}
+
 .fixed {
 	position: fixed;
 	top:0;
@@ -132,6 +141,10 @@ body {
 
 }
 
+.bold-text:last-child {
+    margin-bottom: 20px;
+}
+
 .my-default-navbar {
 	display:block;
 	padding-left: 7%;
@@ -141,19 +154,25 @@ body {
 	background: #566f77;
 }
 
-.my-mobile-navbar {
+#my-mobile-navbar {
+    height:42px;
+    overflow:hidden;
+}
+
+#my-mobile-navbar > div {
 	display:none;
 }
 
-.my-mobile-navbar > ul {
+#my-mobile-navbar > div > ul {
 	list-style: none;
+    width:768px;
 }
 
-.my-mobile-navbar > ul > li {
+#my-mobile-navbar > div > ul > li {
 	display: inline-block;
  }
 
-.my-mobile-navbar > ul > li > a {
+#my-mobile-navbar > div > ul > li > a {
 	color:#fff;
 	display: block;
 	padding: 10px 15px;
@@ -163,7 +182,7 @@ body {
 	display:none;
 }
 
-.my-mobile-navbar > ul > li > a:hover {
+#my-mobile-navbar > div > ul > li > a:hover {
 	text-decoration: none;
 	background: #58707F;
 }
@@ -726,8 +745,9 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		display: none;
 	}
 
-	.my-mobile-navbar {
+	#my-mobile-navbar > div {
 		display:block;
+        overflow-x: scroll;
 	}
 
 	#mobileLogo{
@@ -848,11 +868,15 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 
 	.title-input {
-		font-size:18px;
+		font-size:14px;
 	}
 
 	.col-xs-6 {
 		width: 100%;
+	}
+
+	.last-name {
+		margin-top:40px;
 	}
 
 	.button-body {
