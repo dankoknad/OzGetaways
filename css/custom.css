@@ -93,7 +93,7 @@
 	font-style: normal;
 }
 
-/* fonts demo styles */
+/* fonts demo styles which are here temporarily*/
 .demo-0 {
 	font-family: 'Avenir LT Std';
 	font-weight: normal;
@@ -859,7 +859,83 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 /*}*/
 
 
+/*********************/
+.property-date {
+	margin: 0 auto;
+	max-width: 255px;
+}
+.transaction-history-row {
+	padding: 20px;
+}
+.th-img {
+	float: left;
+	margin-right: 15px;
+}
+.th-title,
+.th-date,
+.th-person-name,
+.th-fee,
+.th-title,
+.th-netincome {
+	display: inline-block;
+} 
+.btn-rounded {
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
 
+@media only screen and (min-width: 768px) {
+	.transaction-history-row {
+		position: relative;
+		vertical-align: top;
+	}
+	.transaction-history-row > div {
+		vertical-align: middle;
+	}
+	.th-title {
+		display: block;
+	}
+
+	.th-property,
+	.th-dates,
+	.th-guests,
+	.th-fees,
+	.th-netincomes,
+	.th-property-title,
+	.th-dates-title,
+	.th-guests-title,
+	.th-fees-title,
+	.th-netincomes-title {
+		display: inline-block;
+	}
+	.th-property,
+	.th-property-title {
+		width: 280px;
+	}
+	.th-dates,
+	.th-dates-title {
+		width: 100px;
+	}
+	.th-guests,
+	.th-guests-title {
+		width: 65px;
+	}
+	.th-fees,
+	.th-fees-title {
+		width: 60px;
+	}
+	.th-netincomes,
+	.th-netincomes-title {
+		width: 160px;
+	}
+	.th-netincomes a {
+		display: inline-block;
+	}
+}
+
+
+/***********************/
 @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
 

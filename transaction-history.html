@@ -1,225 +1,303 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<meta name="description" content="">
-  	<meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  	<title>Transaction History</title>
+    <title>OzGetaways</title>
 
-  	<!-- Latest compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-  		  integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-  		  crossorigin="anonymous">
-  	<!-- Optional theme -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
-  		  integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-  	<link rel="stylesheet" href="css/custom.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+        integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+        integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/custom.css">
+
   </head>
   <body>
 
     <div class="container-fluid my-header">
-    	<div class="row">
-    		<div class='col-sm-2 col-xs-12' >
-    			<div class="logoDiv">
-    				<img src="img/svg/Logo.svg" alt="My Logo">
-    				<!--<div id="img_logo">
-    				</div>-->
-    			</div>
-    		</div>
-    		<div class="col-sm-10 list-property">
-    			<div class="bs-glyphicons">
-    				<ul class="bs-glyphicons-list pull-right">
-    					<li>List your property</li>
-    					<li>
-    						<div id="message-circle">
-    							<div id="message">
-    								<div id="img_message">
+      <div class="row">
+        <div class='col-sm-2 col-xs-12' >
+          <div class="logoDiv">
+            <img src="img/svg/Logo.svg" alt="My Logo">
+            <!--<div id="img_logo">
+            </div>-->
+          </div>
+        </div>
+        <div class="col-sm-10 list-property">
+          <div class="bs-glyphicons">
+            <ul class="bs-glyphicons-list pull-right">
+              <li>List your property</li>
+              <li>
+                <div id="message-circle">
+                  <div id="message">
+                    <div id="img_message">
 
-    								</div>
+                    </div>
 
-    							</div>
-    							<div class="circleDiv">
-    								<div class="imgRedCircle">
+                  </div>
+                  <div class="circleDiv">
+                    <div class="imgRedCircle">
 
-    								</div>
-    							</div>
-    						</div>
-    					</li>
-    					<li>
-    						<div id="sky-circle">
-    							<div class="skyDiv">
-    								<div class="imgSky">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div id="sky-circle">
+                  <div class="skyDiv">
+                    <div class="imgSky">
 
-    								</div>
+                    </div>
 
-    							</div>
-    							<div class="circleDiv">
-    								<div class="imgRedCircle">
+                  </div>
+                  <div class="circleDiv">
+                    <div class="imgRedCircle">
 
-    								</div>
-    							</div>
-    						</div>
-    					</li>
-    					<li>
-    						<div id="circle_person">
-    							<div class="personDiv">
-    								<div id="personBorder">
-    									<img src="img/person.jpg" alt="person user image not found">
-    								</div>
-    							</div>
-    						</div>
-    					</li>
-    					<li>
-    						<div id="weather">
-    							<div id="weather_icon">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div id="circle_person">
+                  <div class="personDiv">
+                    <div id="personBorder">
+                      <img src="img/person.jpg" alt="person user image not found">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div id="weather">
+                  <div id="weather_icon">
 
-    							</div>
-    						</div>
-    					</li>
-    					<li>
-    						<div id="text_weather">Wooloomooloo 17 C<br/> Enter Suburb</div>
-    					</li>
-    				</ul>
-    			</div>
-    		</div>
-    	</div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div id="text_weather">Wooloomooloo 17 C<br/> Enter Suburb</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
     <nav class="navbar-inverse my-default-navbar" role="navigation">
-    	<div class="container-fluid">
-    		<div class="navbar-header">
-    			<button type="button" class="navbar-toggle collapsed custom-menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-    				<span class="sr-only">Toggle navigation</span>
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    				<span class="icon-bar"></span>
-    			</button>
-    			<div id="mobileLogo">
-    				<div class="logoDiv">
-    					<img src="img/svg/Logo.svg" alt="My Logo">
-    					<!--<div id="img_logo">
-    					</div>-->
-    				</div>
-    			</div>
-    			<a class="navbar-brand glyphicon glyphicon-home" href="#"></a>
-    		</div>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed custom-menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="mobileLogo">
+            <div class="logoDiv">
+              <img src="img/svg/Logo.svg" alt="My Logo">
+              <!--<div id="img_logo">
+              </div>-->
+            </div>
+          </div>
+          <a class="navbar-brand glyphicon glyphicon-home" href="#"></a>
+        </div>
 
-    		<!-- Collect the nav links, forms, and other content for toggling -->
-    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    			<ul class="nav navbar-nav">
-    				<li>
-    					<a href="#">Dashboard</a>
-    				</li>
-    				<li>
-    					<a href="#">Listings</a>
-    				</li>
-    				<li>
-    					<a href="#">Bookings / Trips</a>
-    				</li>
-    				<li>
-    					<a href="#">Notifications</a>
-    				</li>
-    				<li>
-    					<a href="#">Account</a>
-    				</li>
-    				<li>
-    					<a href="#">Help Centre</a>
-    				</li>
-    			</ul>
-    		</div>
-    	</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">Dashboard</a>
+            </li>
+            <li>
+              <a href="#">Listings</a>
+            </li>
+            <li>
+              <a href="#">Bookings / Trips</a>
+            </li>
+            <li>
+              <a href="#">Notifications</a>
+            </li>
+            <li>
+              <a href="#">Account</a>
+            </li>
+            <li>
+              <a href="#">Help Centre</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-
-    <div class="navbar-inverse my-mobile-navbar">
-    	<ul>
-    		<li><a href="#">My Profle</a></li>
-    		<li><a href="#">Payment Settings</a></li>
-    		<li><a href="#">Transaction History</a></li>
-    		<li><a href="#">Notifications</a></li>
-    		<li><a href="#">Settings</a></li>
-    	</ul>
+    <div id="my-mobile-navbar">
+        <div class="navbar-inverse">
+            <ul>
+                <li><a href="#">My Profle</a></li>
+                <li><a href="#">Payment Settings</a></li>
+                <li><a href="#">Transaction History</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
     </div>
-
 
 
 
     <div class="container">
-    	<div class="row">
+      <div class="row">
 
-    		<div class="col-sm-3">
-    			<div id="icons">
-    				<div class="icon">
-    					<div id="person-style">
-    						<div id="person-icon"></div>
-    					</div>
-    					<a href="#">My Profle</a>
-    				</div>
-    				<div class="icon">
-    					<div id="payment-style">
-    						<div id="payment-icon"></div>
-    					</div>
-    					<a href="#">Payment Settings</a>
-    				</div>
-    				<div class="icon">
-    					<div id="transaction-style">
-    						<div id="transaction-icon"></div>
-    					</div>
-    					<a href="#">Transaction History</a>
-    				</div>
-    				<div class="icon">
-    					<div id="notifications-style">
-    						<div id="notifications-icon"></div>
-    					</div>
-    					<a href="#">Notifications</a>
-    				</div>
-    				<div class="icon">
-    					<div id="settings-style">
-    						<div id="settings-icon"></div>
-    					</div>
-    					<a href="#">Settings</a>
-    				</div>
-    			</div>
-    		</div><!--  /.col-sm-3 -->
-
-    		<div class="col-sm-9">
-    			<div class="row title-container">
-    				<p>Transaction History</p>
-    			</div>
-
-          <!-- Tabs -->
-          <div class="row">
-            <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-              <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content">
-              <div role="tabpanel" class="tab-pane active" id="home">a...</div>
-              <div role="tabpanel" class="tab-pane" id="profile">b...</div>
-              <div role="tabpanel" class="tab-pane" id="messages">c...</div>
-              <div role="tabpanel" class="tab-pane" id="settings">d...</div>
+        <div class="col-sm-3">
+          <div id="icons">
+            <div class="icon">
+              <div id="person-style">
+                <div id="person-icon"></div>
+              </div>
+              <a href="#">My Profle</a>
             </div>
-
+            <div class="icon">
+              <div id="payment-style">
+                <div id="payment-icon"></div>
+              </div>
+              <a href="#">Payment Settings</a>
+            </div>
+            <div class="icon">
+              <div id="transaction-style">
+                <div id="transaction-icon"></div>
+              </div>
+              <a href="#">Transaction History</a>
+            </div>
+            <div class="icon">
+              <div id="notifications-style">
+                <div id="notifications-icon"></div>
+              </div>
+              <a href="#">Notifications</a>
+            </div>
+            <div class="icon">
+              <div id="settings-style">
+                <div id="settings-icon"></div>
+              </div>
+              <a href="#">Settings</a>
+            </div>
           </div>
-    		</div><!--  /.col-sm-9 -->
-    	</div><!--  /.row -->
-    </div><!--  /.container -->
 
+        </div>
+        <div class="col-sm-9">
+              <div class="row title-container">
+                <p>Transaction History</p>
+              </div>
 
+              <!-- Tabs -->
+              <div class="row">
+                <!-- Nav tabs -->
+                <ul class="text-center list-inline" role="tablist">
+                  <li role="presentation" class="active"><a href="#property-listers-tab" aria-controls="home" role="tab" data-toggle="tab">Property Listers</a></li>
+                  <li role="presentation"><a href="#guests-tab" aria-controls="profile" role="tab" data-toggle="tab">Guests</a></li>
+                </ul>
 
+                <div class="form-group property-date">
+                  <div class="form-control div-select" id="property-date">
+                    Sort results by property / date
+                  </div>
 
+                  <div class="select">
+                    <ul>
+                      <li>Property</li>
+                      <li>Date</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="property-listers-tab">
+                    <div class="transaction-history-row">
+                      <div class="hidden-xs">
+                        <div class="th-property-title">Property</div>
+                        <div class="th-dates-title">Dates</div>
+                        <div class="th-guests-title">Guest</div>
+                        <div class="th-fees-title">Fees</div>
+                        <div class="th-netincomes-title">Net Income</div>
+                      </div>
+                      <div class="th-property clearfix">
+                        <img  class="th-img" src="img/hotel.jpg" alt="..">
+                        <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
+                        <div class="th-addons">5 5 5</div>
+                      </div>
+                      <div class="th-dates">
+                        <div class="visible-xs-inline-block th-title">Dates</div>
+                        <div class="th-date">Sep 13, 2014</div>
+                        <div class="th-date">Sep 13, 2014</div>
+                      </div>
+                      <div class="th-guests">
+                        <div class="visible-xs-inline-block th-title">Guest</div>
+                        <img  class="th-img  hidden-xs" src="img/person.jpg" alt="..">
+                        <div class="th-person-name">Michael</div>
+                      </div>
+                      <div class="th-fees">
+                        <div class="visible-xs-inline-block th-title">Fees</div>
+                        <div class="th-fee">&#36; 5,679</div>
+                      </div>
+                      <div class="th-netincomes">
+                        <div class="visible-xs-inline-block th-title">Net Income</div>
+                        <div class="th-netincome">&#36; 579</div>
+                        <a class="btn-rounded blue" href="#">View Receipt</a>
+                      </div>
+                    </div><!-- /.transaction-history-row -->
+
+                    <div class="transaction-history-row">
+                      <div class="hidden-xs">
+                        <div class="th-property-title">Property</div>
+                        <div class="th-dates-title">Dates</div>
+                        <div class="th-guests-title">Guest</div>
+                        <div class="th-fees-title">Fees</div>
+                        <div class="th-netincomes-title">Net Income</div>
+                      </div>
+                      <div class="th-property clearfix">
+                        <img  class="th-img" src="img/hotel.jpg" alt="..">
+                        <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
+                        <div class="th-addons">5 5 5</div>
+                      </div>
+                      <div class="th-dates">
+                        <div class="visible-xs-inline-block th-title">Dates</div>
+                        <div class="th-date">Sep 13, 2014</div>
+                        <div class="th-date">Sep 13, 2014</div>
+                      </div>
+                      <div class="th-guests">
+                        <div class="visible-xs-inline-block th-title">Guest</div>
+                        <img  class="th-img  hidden-xs" src="img/person.jpg" alt="..">
+                        <div class="th-person-name">Michael</div>
+                      </div>
+                      <div class="th-fees">
+                        <div class="visible-xs-inline-block th-title">Fees</div>
+                        <div class="th-fee">&#36; 5,679</div>
+                      </div>
+                      <div class="th-netincomes">
+                        <div class="visible-xs-inline-block th-title">Net Income</div>
+                        <div class="th-netincome">&#36; 579</div>
+                        <a class="btn-rounded blue" href="#">View Receipt</a>
+                      </div>
+                    </div><!-- /.transaction-history-row -->
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="guests-tab">Guests</div>
+                </div>
+
+              </div>
+            </div><!--  /.col-sm-9 -->
+          </div><!--  /.row -->
+        </div><!--  /.container -->
+      </div>
+    </div>
 
     <div class="container-fluid my-footer">
-    	<div class="container">
-    		<div id="saveChangeButton">Save Changes</div>
-    	</div>
+      <div class="container">
+        <div id="saveChangeButton">Save Changes</div>
+      </div>
     </div>
 
     <script src="js/jquery.js"></script>
@@ -227,7 +305,7 @@
 
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 
   </body>
