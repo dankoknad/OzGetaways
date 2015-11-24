@@ -194,25 +194,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-md-3 col-xs-4">
+                <div class="col-sm-5 col-md-4 col-xs-5">
                     <p class="bold-text">Profile picture</p>
                     <img id="profile-picture" src="img/svg/profile_picture.svg" alt="no profile picture">
                 </div>
-                <div class="col-sm-8 col-md-9 col-xs-8">
+                <div class="col-sm-7 col-md-8 col-xs-7">
                     <div id="edit-profile">
                         <div class="row header-caption"><p>Drag & drop your profile picture here</p></div>
                         <div class="row"><div class="col-sm-12 or_text"><span>OR</span></div></div>
                         <div class="row">
-                            <div class="col-sm-6 col-xs-6">
-                                <div class="button browse">
-                                    <p>Browse</p>
+                            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="button browse">
+                                        <p>Browse</p>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="button webcam">
+                                        <p>Webcam</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-xs-6">
-                                <div class="button webcam">
-                                    <p>Webcam</p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -225,12 +228,12 @@
                             <div class="form-group">
                                 <div class="form-inline">
                                     <div class="form-group col-xs-6">
-                                        <p>First Name</p>
-                                        <input type="text" class="form-control" id="InputLastName" placeholder="First Name">
+                                        <p class="title-input">First Name</p>
+                                        <input type="text" class="form-control" id="InputFirstName" placeholder="John">
                                     </div>
                                     <div class="form-group col-xs-6">
-                                        <p>Last Name </p>
-                                        <input type="text" class="form-control" id="InputFirstName" placeholder="Last Name">
+                                        <p class="title-input">Last Name </p>
+                                        <input type="text" class="form-control" id="InputLastName" placeholder="Oliver">
                                     </div>
                                 </div>
                             </div>
@@ -238,12 +241,12 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <div class="row"><div class="col-sm-12"><p>Gender</p></div></div>
+                                    <div class="row"><div class="col-sm-12"><p class="title-input">Gender</p></div></div>
                                     <div class="row">
                                         <div class="col-sm-3 col-xs-3 col-mb-7">
-                                            <select class="form-control" id="selGender">
-                                                <option>Male</option>
-                                            </select>
+                                            <div class="form-control div-select" id="selGender">
+                                                Male
+                                            </div>
                                             <div class="select">
                                                 <ul>
                                                     <li>Male</li>
@@ -257,14 +260,14 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <div class="row "><div class="col-xs-12"><p>Birthday</p></div></div>
+                                <div class="row "><div class="col-xs-12"><p class="title-input">Birthday</p></div></div>
                                 <div class="row">
                                     <div class="from-group">
                                         <div class="form-inline">
                                             <div class="form-group col-sm-3 col-xs-3  col-mb-6 birthay">
-                                                <select class="form-control" id="selMonth">
-                                                    <option>June</option>
-                                                </select>
+                                                <div class="form-control div-select" id="selMonth">
+                                                    June
+                                                </div>
 
                                                 <div class="select">
                                                     <ul>
@@ -278,9 +281,9 @@
                                                 </div>
                                             </div>
                                             <div class="form-group col-sm-2 col-xs-3  col-mb-3 birthay">
-                                                <select class="form-control" id="selDay">
-                                                    <option>1th</option>
-                                                </select>
+                                                <div class="form-control div-select" id="selDay">
+                                                   1th
+                                                </div>
                                                 <div class="select">
                                                     <ul>
                                                         <li>1th</li>
@@ -293,9 +296,9 @@
                                                 </div>
                                             </div>
                                             <div class="form-group col-sm-2 col-xs-3  col-mb-3  birthay">
-                                                <select class="form-control" id="selYear">
-                                                    <option>1988</option>
-                                                </select>
+                                                <div class="form-control div-select" id="selYear">
+                                                    1988
+                                                </div>
                                                 <div class="select">
                                                     <ul>
                                                         <li>1988</li>
@@ -315,8 +318,8 @@
                         <div class="row">
                             <div class="form-group">
                                 <div class="form-group col-xs-7 col-mb-12">
-                                    <p>What Highschool Did You Go To? </p>
-                                    <input type="text" class="form-control" id="InputSign" placeholder="">
+                                    <p class="title-input">What Highschool Did You Go To? </p>
+                                    <input type="text" class="form-control" id="inputSign" placeholder="Eureka School">
                                 </div>
                             </div>
                         </div>
@@ -324,8 +327,8 @@
                         <div class="row">
                             <div class="form-group">
                                 <div class="form-group col-xs-7 col-mb-12">
-                                    <p>What Do You Do For Work? </p>
-                                    <input type="text" class="form-control" id="InputWork" placeholder="">
+                                    <p class="title-input">What Do You Do For Work? </p>
+                                    <input type="text" class="form-control" id="inputWork" placeholder="I am Programer">
                                 </div>
                             </div>
                         </div>
@@ -333,8 +336,8 @@
                         <div class="row">
                             <div class="col-sm-7 col-xs-7 col-mb-12">
                                 <div class="form-group">
-                                    <p>About you</p>
-                                    <textarea class="form-control" rows="8" id="comment"></textarea>
+                                    <p class="title-input">About you</p>
+                                    <textarea class="form-control" rows="8" id="aboutTextarea" placeholder="I am John Oliver..."></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-1 col-xs-1 col-mb-1 icon-textarea">a</div>
@@ -352,30 +355,35 @@
                         <div class="row">
                             <div class="form-group">
                                 <div class="form-inline">
-                                    <div class="col-sm-12"><p>Adress</p></div>
-                                    <div class="form-group col-sm-1 col-xs-2 col-mb-6">
-                                        <p>Unit </p>
-                                        <input type="text" class="form-control" id="InputUnit" placeholder="">
+                                    <div class="col-sm-12 font-header"><p class="bold-text">Address</p></div>
+
+                                    <div class="col-sm-12 col-md-6 padding-none">
+                                        <div class="form-group col-sm-2 col-md-3 col-xs-2 col-mb-6">
+                                            <p class="title-input">Unit </p>
+                                            <input type="text" class="form-control" id="InputUnit" placeholder="3">
+                                        </div>
+                                        <div class="form-group col-sm-2 col-md-3 col-xs-2 col-mb-6">
+                                            <p class="title-input">Street No</p>
+                                            <input type="text" class="form-control" id="InputStreetNo" placeholder="152">
+                                        </div>
+                                        <div class="form-group col-sm-8 col-md-6 col-xs-8 col-mb-12">
+                                            <p class="title-input mobile-padding not-middle">Street Name </p>
+                                            <input type="text" class="form-control" id="InputStreetName" placeholder="Oliver">
+                                        </div>
                                     </div>
-                                    <div class="form-group col-sm-1 col-xs-2 col-mb-6">
-                                        <p>Street </p>
-                                        <input type="text" class="form-control" id="InputStreet" placeholder="">
-                                    </div>
-                                    <div class="form-group col-sm-3 col-xs-8 col-mb-12">
-                                        <p>Street Name </p>
-                                        <input type="text" class="form-control" id="InputStreetName" placeholder="">
-                                    </div>
-                                    <div class="form-group col-sm-3 col-xs-8 col-mb-12">
-                                        <p>Suburb </p>
-                                        <input type="text" class="form-control" id="InputSuburb" placeholder="">
-                                    </div>
-                                    <div class="form-group col-sm-2 col-xs-2 col-mb-6">
-                                        <p>Postcode </p>
-                                        <input type="text" class="form-control" id="InputPostCode" placeholder="">
-                                    </div>
-                                    <div class="form-group col-sm-2 col-xs-2 col-mb-6">
-                                        <p>State </p>
-                                        <input type="text" class="form-control" id="InputState" placeholder="">
+                                    <div class="col-sm-12 col-md-6 padding-none">
+                                        <div class="form-group col-sm-8 col-xs-8 col-mb-12 col-md-6">
+                                            <p class="title-input  mobile-padding">Suburb </p>
+                                            <input type="text" class="form-control" id="InputSuburb" placeholder="Chickago">
+                                        </div>
+                                        <div class="form-group col-sm-2 col-xs-2 col-mb-6 col-md-3">
+                                            <p class="title-input mobile-padding">Postcode </p>
+                                            <input type="text" class="form-control" id="InputPostCode" placeholder="2324">
+                                        </div>
+                                        <div class="form-group col-sm-2 col-xs-2 col-mb-6 col-md-3">
+                                            <p class="title-input mobile-padding">State </p>
+                                            <input type="text" class="form-control" id="InputState" placeholder="US">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -397,24 +405,50 @@
 
 <script type="text/javascript">
     $( document ).ready(function() {
-        $('option').hide();
-        $('.select').hide();
 
-        $('select').click(function(){
-            var siblings = $(this).siblings().toggle();
-        });
+        /* Drop down */
+
+        $('.select').hide();
 
         $('li').click(function(){
             var nameLi = $(this).text();
-            $(this).parent().siblings().children().text(nameLi);
+            $(this).parent().parent().siblings().text(nameLi);
             $('.select').hide();
         });
 
         $('body').click(function(e){
+            $('.div-select').removeClass('div-select-click');
+
             if ( $(e.target).siblings().attr('class') != 'select' ){
                 $('.select').hide();
+
+                $('.div-select').css({
+                    'background' : "url('img/svg/arrow_up.svg') no-repeat",
+                    'background-position': 'right 10px center',
+                    'background-size': '15px 8px',
+                    'text-indent': '0.01px'
+                });
+
             } else {
+                console.log($(e.target).siblings());
+
+                $(e.target).css({
+                    'background' : "url('img/svg/arrow_down.svg') no-repeat",
+                    'background-position': 'right 10px center',
+                    'background-size': '15px 8px',
+                    'text-indent': '0.01px'
+                });
+
+                $('.select').siblings().not(e.target).css({
+                    'background' : "url('img/svg/arrow_up.svg') no-repeat",
+                    'background-position': 'right 10px center',
+                    'background-size': '15px 8px',
+                    'text-indent': '0.01px'
+                });
+
                 $('.select').hide();
+
+                $(e.target).addClass('div-select-click');
                 $(e.target).siblings().toggle();
             }
         });
@@ -430,6 +464,56 @@
             if (scroll >= stickyOffset) sticky.addClass('fixed');
             else sticky.removeClass('fixed');
         });
+
+        /* Form Validate */
+
+        var errorMessage = {};
+        var inputForm = {};
+
+        errorMessage.firstname = "First name required";
+
+        $('#saveChangeButton').click(function(e){
+            event.preventDefault();
+
+            inputForm.firstname = $('#InputFirstName');
+            inputForm.lastname = $('#InputLastName');
+            inputForm.gender = $('#selGender');
+            inputForm.birthdayMonth = $('#selMonth');
+            inputForm.birthdayDay = $('#selDay');
+            inputForm.birthdayYear = $('#selYear');
+            inputForm.Sign = $('#inputSign');
+            inputForm.Work = $('#inputWork');
+            inputForm.about = $('#aboutTextarea');
+            inputForm.Unit = $('#InputUnit');
+            inputForm.StreetNo = $('#InputStreetNo');
+            inputForm.StreetName = $('#InputStreetName');
+            inputForm.Suburb = $('#InputSuburb');
+            inputForm.PostCode = $('#InputPostCode');
+            inputForm.State = $('#InputState');
+
+            var errorType = true;
+
+            $.each( inputForm, function( key, value ) {
+                value.removeClass('box-error');
+
+                if (value[0].localName == 'div') {
+                    if( $.trim(value[0].innerHTML).length == 0){
+                        value.addClass('box-error');
+                        errorType = false;
+                    }
+                } else {
+                    if( $.trim(value.val()).length == 0){
+                        value.addClass('box-error');
+                        errorType = false;
+                    }
+                }
+
+
+                console.log("error type = ", errorType );
+            });
+
+
+        })
 
 
     });

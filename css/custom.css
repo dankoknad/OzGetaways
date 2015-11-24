@@ -3,6 +3,12 @@
     src: url(../fonts/Avenir/AvenirNextLTPro-Regular.otf);
 }
 
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+}
+
 body {
     font-family: Avenir;
     color:#919ea3;
@@ -27,7 +33,7 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     background: url('../img/svg/arrow_up.svg') no-repeat;
-    background-position:  95% 50%;
+    background-position:  right 10px center;
     background-size: 15px 8px;
     text-indent: 0.01px;
 }
@@ -35,15 +41,6 @@ body {
 .fixed {
     position: fixed;
     top:0;
-}
-
-#selGender:focus {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: url('../img/svg/arrow_down.svg') no-repeat;
-    background-position:  95% 50%;
-    background-size: 15px 8px;
-    text-indent: 0.01px;
 }
 
 .logoDiv img {
@@ -54,7 +51,7 @@ body {
 #img_logo {
     background-image: url("../img/svg/sprite.svg");
     background-repeat: no-repeat;
-    background-position:  100% 50%;
+    background-position:  right 10px center;
     width: 480px;
     height: 200px
 }
@@ -178,6 +175,10 @@ body {
     width: 50px;
 }
 
+.font-header {
+    font-size: 16px;
+}
+
 .personDiv {
     width: 30px;
     height: 30px;
@@ -224,6 +225,11 @@ body {
     border-radius: 20px;
     color: #31acff;
     cursor: pointer;
+}
+
+.box-error {
+    border:1px solid #e56761 !important;
+    color: #e56761 !important;
 }
 
 .bs-glyphicons-list li:first-child:hover {
@@ -328,7 +334,11 @@ body {
 
 .header-caption {
     font-size:18px;
-    padding-bottom: 5px;
+    margin-top: -3px;
+}
+
+.header-caption > p {
+    line-height: 18px;
 }
 
 #transaction-style {
@@ -366,6 +376,10 @@ body {
     background-position: -191px -44px;
     width: 480px;
     height: 200px;
+}
+
+.padding-none {
+    padding:0px;
 }
 
 #settings-style {
@@ -428,47 +442,26 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     background: url('../img/svg/arrow_up.svg') no-repeat;
-    background-position: 92% 50%;
-    background-size: 15px 8px;
-    text-indent: 0.01px;
-}
-
-#selDay:focus {
-    background: url('../img/svg/arrow_down.svg') no-repeat;
-    background-position: 92% 50%;
-    background-size: 15px 8px;
-    text-indent: 0.01px;
-}
-
-#selYear:focus {
-    background: url('../img/svg/arrow_down.svg') no-repeat;
-    background-position: 92% 50%;
+    background-position: right 10px center;
     background-size: 15px 8px;
     text-indent: 0.01px;
 }
 
 #profile-picture {
     width: 193px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #edit-profile {
     border: 2px dashed #dae3e5;
-    height: 220px;
-    margin-top: 70px;
-    padding: 4.3% 12%;
     text-align: center;
-    float: right;
-    width: 90%;
-}
-
-#edit-profile > p {
-    padding-bottom: 25px;
+    margin-top: 74px;
+    padding: 30px;
 }
 
 .or_text {
     display:block;
-    padding:10px;
+    margin:20px 0px;
 }
 
 .or_text > span {
@@ -480,18 +473,17 @@ body {
 
 .button {
     height:40px;
-    margin-top:19px;
     color:#fff;
     text-align: center;
     cursor:pointer;
     border-radius: 2px;
+    margin-top:10px;
 }
 
 .button > p {
     display: block;
-    margin: 0px;
-    height: 100%;
-    padding-top:10px;
+    font-size: 16px;
+    padding-top: 9px;
 }
 
 .browse {
@@ -524,7 +516,7 @@ body {
 }
 
 .form-row {
-    margin-top:30px;
+    margin-top:40px;
 }
 
 #selMonth {
@@ -532,16 +524,7 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     background: url('../img/svg/arrow_up.svg') no-repeat;
-    background-position: 95% 50%;
-    background-size: 15px 8px;
-    text-indent: 0.01px;
-}
-
-#selMonth:focus {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: url('../img/svg/arrow_down.svg') no-repeat;
-    background-position: 95% 50%;
+    background-position: right 10px center;
     background-size: 15px 8px;
     text-indent: 0.01px;
 }
@@ -560,15 +543,41 @@ body {
     color:#919ea3;
     font-size:14px;
     box-shadow: 0px 0px 0px !important;
+    -webkit-box-shadow: inset 0 0 0px !important;
+    -moz-box-shadow: inset 0 0 0px !important;
+    box-shadow: inset 0 0 0px !important;
 }
 
-.form-group input,.form-group select{
+.form-group input,.form-group .div-select{
     height:40px;
+}
+
+
+.title-input {
+    color:#526a72;
+}
+
+.div-select {
+    padding-top: 9px;
+}
+
+.div-select-click {
+    border-radius: 2px 2px 0px 0px;
 }
 
 .form-group {
     margin-bottom: 0px;
 }
+
+input[type=text]::-webkit-input-placeholder {color:#bac3c6;}
+input[type=text]::-moz-placeholder{color:#bac3c6;}
+input[type=text]:-moz-placeholder {color:#bac3c6;}
+input[type=text]:-ms-input-placeholder {color:#bac3c6;}
+
+.form-group > textarea::-webkit-input-placeholder{color:#bac3c6;}
+.form-group > textarea::-moz-placeholder{color:#bac3c6;}
+.form-group > textarea:-moz-placeholder{color:#bac3c6;}
+.form-group > textarea:-ms-input-placeholder {color:#bac3c6;}
 
 .form-control:focus {
     outline: none;
@@ -577,7 +586,11 @@ body {
 }
 
 .form > .row {
-    padding-top:30px;
+    padding-top:40px;
+}
+
+.form > .row:first-child {
+    padding-top: 10px;
 }
 
 .birthay {
@@ -595,7 +608,9 @@ body {
     z-index:30;
     width:100%;
     border:1px solid #ccd8db;
+    border-top:0px;
     position: absolute;
+    border-radius: 0px 0px 2px 2px;
 }
 
 .select >ul > li {
@@ -646,7 +661,7 @@ body {
     font-size:12px;
 }
 
-#InputUnit,#InputStreet,#InputStreetName,#InputSuburb,#InputPostCode,#InputState {
+#InputUnit,#InputStreetNo,#InputStreetName,#InputSuburb,#InputPostCode,#InputState {
     width:100%;
 }
 
@@ -729,10 +744,6 @@ body {
         width:100%;
     }
 
-    #edit-profile {
-        margin-top:50px;
-    }
-
     .navbar-header {
         background: #fff;
     }
@@ -740,6 +751,14 @@ body {
     .custom-menu {
         float:left;
         border:none;
+    }
+
+    .mobile-padding {
+        padding-top:20px;
+    }
+
+    .not-middle {
+        padding-top:0px;
     }
 
     .custom-menu > .icon-bar {
@@ -760,21 +779,7 @@ body {
         -webkit-appearance: none;
         -moz-appearance: none;
         background: url('../img/svg/arrow_up.svg') no-repeat;
-        background-position: 95% 50%;
-        background-size: 15px 8px;
-        text-indent: 0.01px;
-    }
-
-    #selDay:focus {
-        background: url('../img/svg/arrow_down.svg') no-repeat;
-        background-position: 95% 50%;
-        background-size: 15px 8px;
-        text-indent: 0.01px;
-    }
-
-    #selYear:focus {
-        background: url('../img/svg/arrow_down.svg') no-repeat;
-        background-position: 95% 50%;
+        background-position: right 10px center;
         background-size: 15px 8px;
         text-indent: 0.01px;
     }
@@ -785,6 +790,7 @@ body {
 
     #profile-picture {
         width:160px;
+        margin-top: 48px;
     }
 
     .logoDiv {
@@ -807,12 +813,14 @@ body {
 @media only screen and (max-width: 520px) {
     #edit-profile {
         border:none;
-        margin-top: 0px;
-        padding: 60px 0px;
-        padding-right: 60px;
-        float: none;
-        width: 100%;
+        margin-top: 34px;
+        padding: 30px 0px;
     }
+
+    #edit-profile  .col-sm-6{
+        padding:0px;
+    }
+
 
     #selDay,#selYear {
         width:100%;
@@ -824,30 +832,21 @@ body {
         text-indent: 0.01px;
     }
 
-    #selDay:focus {
-        background: url('../img/svg/arrow_down.svg') no-repeat;
-        background-position: 87% 50%;
-        background-size: 15px 8px;
-        text-indent: 0.01px;
-    }
-
-    #selYear:focus {
-        background: url('../img/svg/arrow_down.svg') no-repeat;
-        background-position: 87% 50%;
-        background-size: 15px 8px;
-        text-indent: 0.01px;
-    }
-
     #profile-picture {
         width:93px;
+        margin-top: 17px;
     }
 
     .bold-text {
-        font-size:12px;
+        font-size:18px;
     }
 
     .header-caption, .personDiv ,.or_text {
         display:none;
+    }
+
+    .title-input {
+        font-size:18px;
     }
 
     .col-xs-6 {
@@ -858,9 +857,6 @@ body {
         margin-top:0px;
     }
 
-    .button {
-        margin-top: 10px;
-    }
 
     .birthay {
         float: left;
@@ -882,6 +878,10 @@ body {
 
     .my-row-header {
         width: 330px;
+    }
+
+    .mobile-padding {
+        padding-top:20px;
     }
 
     .col-mb-1 {
