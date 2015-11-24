@@ -137,16 +137,18 @@
 		</div>
 	</div>
 </nav>
-
-<div class="navbar-inverse my-mobile-navbar">
-	<ul>
-		<li><a href="#">My Profle</a></li>
-		<li><a href="#">Payment Settings</a></li>
-		<li><a href="#">Transaction History</a></li>
-		<li><a href="#">Notifications</a></li>
-		<li><a href="#">Settings</a></li>
-	</ul>
+<div id="my-mobile-navbar">
+    <div class="navbar-inverse">
+        <ul>
+            <li><a href="#">My Profle</a></li>
+            <li><a href="#">Payment Settings</a></li>
+            <li><a href="#">Transaction History</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
 </div>
+
 
 
 <div class="container">
@@ -232,7 +234,7 @@
 										<input type="text" class="form-control" id="InputFirstName" placeholder="John">
 									</div>
 									<div class="form-group col-xs-6">
-										<p class="title-input">Last Name </p>
+										<p class="title-input last-name">Last Name </p>
 										<input type="text" class="form-control" id="InputLastName" placeholder="Oliver">
 									</div>
 								</div>
@@ -357,7 +359,7 @@
 								<div class="form-inline">
 									<div class="col-sm-12 font-header"><p class="bold-text">Address</p></div>
 
-									<div class="col-sm-12 col-md-6 padding-none">
+									<div class="col-sm-12 col-md-5 padding-none">
 										<div class="form-group col-sm-2 col-md-3 col-xs-2 col-mb-6">
 											<p class="title-input">Unit </p>
 											<input type="text" class="form-control" id="InputUnit" placeholder="3">
@@ -371,7 +373,7 @@
 											<input type="text" class="form-control" id="InputStreetName" placeholder="Oliver">
 										</div>
 									</div>
-									<div class="col-sm-12 col-md-6 padding-none">
+									<div class="col-sm-12 col-md-7 padding-none">
 										<div class="form-group col-sm-8 col-xs-8 col-mb-12 col-md-6">
 											<p class="title-input  mobile-padding">Suburb </p>
 											<input type="text" class="form-control" id="InputSuburb" placeholder="Chickago">
@@ -382,7 +384,21 @@
 										</div>
 										<div class="form-group col-sm-2 col-xs-2 col-mb-6 col-md-3">
 											<p class="title-input mobile-padding">State </p>
-											<input type="text" class="form-control" id="InputState" placeholder="US">
+                                            <div>
+                                                <div class="form-control div-select" id="InputState">
+                                                    US
+                                                </div>
+                                                <div class="select">
+                                                    <ul>
+                                                        <li>Germany</li>
+                                                        <li>France</li>
+                                                        <li>Russia</li>
+                                                        <li>Spain</li>
+                                                        <li>Italy</li>
+                                                        <li>Canada</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
 										</div>
 									</div>
 								</div>
@@ -406,7 +422,7 @@
 
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
