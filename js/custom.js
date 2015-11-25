@@ -21,7 +21,9 @@ $( document ).ready(function() {
         if(!etarget.hasClass('div-select')) {
             $('.div-select').removeClass('div-select-click');
             $('.div-select').removeClass('current_list');
+
             $('.div-select').siblings().css('display','none');
+
             $('.div-select').css({
                 'background' : "url('img/svg/arrow_up.svg') no-repeat",
                 'background-position': 'right 10px center',
@@ -74,12 +76,30 @@ $( document ).ready(function() {
 
     /* Left menu fixed */
 
-    $(window).scroll(function(){
-        var sticky = $('#icons'),
-            scroll = $(window).scrollTop();
+    var sticky = $('#icons')
+    var windowWidth = $( window ).width();
 
-        if (scroll >= stickyOffset) sticky.addClass('fixed');
-        else sticky.removeClass('fixed');
+    $(window).resize(function(){
+       windowWidth = $( window ).width();
+    });
+
+    $(window).scroll(function(){
+            sticky = $('#icons');
+            var scroll = $(window).scrollTop();
+
+        if (scroll >= stickyOffset) {
+            console.log( windowWidth );
+
+            if( windowWidth < 992 ){
+                sticky.addClass('fixed').addClass('fixed-left');
+            } else {
+                sticky.addClass('fixed');
+            }
+        }
+        else {
+            sticky.removeClass('fixed');
+            sticky.removeClass('fixed-left');
+        };
     });
 
     /* Form Validate */
