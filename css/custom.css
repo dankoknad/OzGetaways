@@ -1,17 +1,147 @@
 @font-face {
-	font-family: Avenir;
-	src: url(../fonts/Avenir/AvenirNextLTPro-Regular.otf);
+    font-family: Avenir;
+    src: url(../fonts/Avenir/AvenirNextLTPro-Regular.otf);
 }
 
 @font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url('../fonts/Bootstrap/glyphicons-halflings-regular.eot');
-    src: url('../fonts/Bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/Bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/Bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-BookOblique.eot');
+    src: url('../fonts/AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-BookOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStd-BookOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Black.eot');
+    src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Black.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Oblique.eot');
+    src: url('../fonts/AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Oblique.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-LightOblique.eot');
+    src: url('../fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-LightOblique.woff') format('woff'),
+    url('../fonts/AvenirLTStd-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Book.eot');
+    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Book.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Heavy.eot');
+    src: url('../fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Heavy.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Roman.eot');
+    src: url('../fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Roman.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Medium.eot');
+    src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Medium.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('../fonts/AvenirLTStd-Light.eot');
+    src: url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirLTStd-Light.woff') format('woff'),
+    url('../fonts/AvenirLTStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* fonts demo styles which are here temporarily*/
+.demo-0 {
+    font-family: 'Avenir LT Std';
+    font-weight: normal;
+    font-style: italic;
+}
+.demo-1 {
+    font-family: 'Avenir LT Std';
+    font-weight: 900;
+    font-style: normal;
+}
+.demo-2 {
+    font-family: 'Avenir LT Std';
+    font-weight: normal;
+    font-style: italic;
+}
+.demo-3 {
+    font-family: 'Avenir LT Std';
+    font-weight: 300;
+    font-style: italic;
+}
+.demo-4 {
+    font-family: 'Avenir LT Std';
+    font-weight: normal;
+    font-style: normal;
+}
+.demo-5 {
+    font-family: 'Avenir LT Std';
+    font-weight: 900;
+    font-style: normal;
+}
+.demo-6 {
+    font-family: 'Avenir LT Std';
+    font-weight: normal;
+    font-style: normal;
+}
+.demo-7 {
+    font-family: 'Avenir LT Std';
+    font-weight: 500;
+    font-style: normal;
+}
+.demo-8 {
+    font-family: 'Avenir LT Std';
+    font-weight: 300;
+    font-style: normal;
+}
 
 body {
-	font-family: Avenir,'Glyphicons Halflings';
+	font-family: 'Avenir LT Std';
 	color:#919ea3;
 }
 
@@ -724,12 +854,22 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
     padding: 0px 10px;
 }
 
+/*[class^="icon-"]{*/
+/*display: block;*/
+/*background: url("../img/icons.svg");*/
+/*text-indent: 100%;*/
+/*}*/
+
+/*.icon-message {*/
+/*background-position: ;*/
+/*}*/
 
 @media only screen and (max-width: 1199px) {
     .padding-none > div {
         padding: 0px 5px;
     }
 }
+
 
 
 @media only screen and (max-width: 991px) {
@@ -746,9 +886,116 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
     }
 }
 
+/* ==========================================================================
+		Transaction History page
+========================================================================== */
+.property-date {
+	margin: 0 auto;
+	max-width: 255px;
+}
+.transaction-history-row {
+	padding: 20px;
+}
+.th-img {
+	float: left;
+	margin-right: 15px;
+}
+.th-title,
+.th-date,
+.th-person-name,
+.th-fee,
+.th-title,
+.th-netincome {
+	display: inline-block;
+	width: 108px;
+} 
+.th-netincome {
+	width: auto;
+}
+.btn-rounded {
+	display: block;
+	width: 120px;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.th-container{
+		width: 100%;
+	} 
+	.transaction-history-row {
+		padding: 20px 0;
+		font-size: 12px;
+	}
+	.transaction-history-row > div {
+		vertical-align: middle;
+	}
+	.th-title {
+		display: block;
+	}
+
+	.th-property,
+	.th-dates,
+	.th-guests,
+	.th-fees,
+	.th-netincomes,
+	.th-property-title,
+	.th-dates-title,
+	.th-guests-title,
+	.th-fees-title,
+	.th-netincomes-title {
+		display: inline-block;
+	}
+	.th-property,
+	.th-property-title {
+		width: 260px;
+	}
+	.th-dates,
+	.th-dates-title {
+		width: 80px;
+	}
+	.th-guests,
+	.th-guests-title {
+		width: 50px;
+	}
+	.th-fees,
+	.th-fees-title {
+		width: 50px;
+	}
+	.th-netincomes,
+	.th-netincomes-title {
+		width: 110px;
+	}
+	.btn-rounded {
+		width: auto;
+		display: inline-block;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.th-container{
+		width: 970px;
+	} 
+}
+@media only screen and (min-width: 1200px) {
+	.th-container{
+		width: 1170px;
+	} 
+}
+/********* End of Transaction History page **************/
 
 
+@media only screen and (max-width: 991px) {
+    .mobile-padding {
+        padding-top:20px;
+    }
 
+    .not-middle {
+        padding-top:0px;
+    }
+
+    .padding-none > div {
+        padding: 0px 10px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
@@ -810,6 +1057,14 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		border:none;
 	}
 
+	.mobile-padding {
+		padding-top:20px;
+	}
+
+	.not-middle {
+		padding-top:0px;
+	}
+
 	.custom-menu > .icon-bar {
 		background-color: #333 !important;
 	}
@@ -858,7 +1113,6 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 
 }
-
 
 @media only screen and (max-width: 520px) {
 	#edit-profile {
