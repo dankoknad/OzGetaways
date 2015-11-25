@@ -186,7 +186,7 @@ body {
 
 .fixed {
 	position: fixed;
-	top:0;
+    top:0;
 }
 
 .fixed-left {
@@ -213,6 +213,11 @@ body {
 	font-size:12px;
 }
 
+#icons a:hover, a:active, a:focus {
+    outline: none;
+    border:none;
+}
+
 .glyphicon {
     top:0px;
 }
@@ -224,6 +229,10 @@ body {
 }
 .navbar {min-height:42px !important;}
 
+.adr-form {
+    padding-right:0px;
+}
+
 #message-circle {
 	position: relative;
 	width: 50px;
@@ -231,9 +240,9 @@ body {
 }
 
 input[type="text"] {
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
 .drop-down-view {
@@ -452,7 +461,7 @@ input[type="text"] {
 }
 
 #icons {
-	margin-top: 40px;
+	padding-top: 40px;
 }
 
 #person-style {
@@ -549,10 +558,6 @@ input[type="text"] {
 	background-position: -191px -44px;
 	width: 480px;
 	height: 200px;
-}
-
-.padding-none {
-	padding:0px;
 }
 
 #settings-style {
@@ -854,7 +859,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	float: right;
 	height: 40px;
 	color: #fff;
-	padding-top: 10px;
+	padding-top: 9px;
 	margin-top:30px;
 	cursor:pointer;
 	font-size:16px;
@@ -865,7 +870,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	background: #4bbbf9;
 }
 
-.padding-none > div {
+.adr-form > div {
     padding: 0px 10px;
 }
 
@@ -880,26 +885,12 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 /*}*/
 
 @media only screen and (max-width: 1199px) {
-    .padding-none > div {
+    .adr-form > div {
         padding: 0px 5px;
     }
 }
 
 
-
-@media only screen and (max-width: 991px) {
-    .mobile-padding {
-        padding-top:20px;
-    }
-
-    .not-middle {
-        padding-top:0px;
-    }
-
-    .padding-none > div {
-        padding: 0px 10px;
-    }
-}
 
 /* ==========================================================================
 		Transaction History page
@@ -993,7 +984,8 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 @media only screen and (min-width: 1200px) {
 	.th-container{
 		width: 1170px;
-	} 
+	}
+
 }
 /********* End of Transaction History page **************/
 
@@ -1007,8 +999,27 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
         padding-top:0px;
     }
 
-    .padding-none > div {
-        padding: 0px 10px;
+    .adr-form > div {
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .adr-form > div:first-child {
+        padding-left: 0px;
+    }
+
+    #edit-profile {
+        padding:20px;
+    }
+
+    #edit-profile .col-sm-6:first-child {
+        padding-left:0px;
+        padding-right:5px;
+    }
+
+    #edit-profile .col-sm-6:last-child {
+        padding-right:0px;
+        padding-left:5px;
     }
 }
 
@@ -1018,6 +1029,16 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	.my-default-navbar {
 		padding-left:0px;
 	}
+
+    #edit-profile .col-sm-6:first-child {
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    #edit-profile .col-sm-6:last-child {
+        padding-right:15px;
+        padding-left:15px;
+    }
 
 	.navbar-nav,.navbar-inverse .navbar-nav > li > a,.glyphicon-home {
 		height:100%;
@@ -1109,7 +1130,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 
 	#profile-picture {
 		width:160px;
-		margin-top: 48px;
+		margin-top: 35px;
 	}
 
 	.logoDiv {
@@ -1193,7 +1214,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 
 	.text-description {
 		width: 270px;
-		margin-top:4px;
+		margin-top:20px;
 	}
 
 	#text-telling {

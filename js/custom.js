@@ -72,20 +72,14 @@ $( document ).ready(function() {
 
     });
 
-    var stickyOffset = $('.container').offset().top;
 
     /* Left menu fixed */
 
-    var sticky = $('#icons')
-    var windowWidth = $( window ).width();
-
-    $(window).resize(function(){
-       windowWidth = $( window ).width();
-    });
+    var stickyOffset = $('#icons').offset().top;
 
     $(window).scroll(function(){
-            sticky = $('#icons');
-            var scroll = $(window).scrollTop();
+        var sticky = $('#icons'),
+            scroll = $(window).scrollTop();
 
         if (scroll >= stickyOffset) {
             sticky.addClass('fixed');
