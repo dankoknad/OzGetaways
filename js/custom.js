@@ -88,18 +88,11 @@ $( document ).ready(function() {
             var scroll = $(window).scrollTop();
 
         if (scroll >= stickyOffset) {
-            console.log( windowWidth );
-
-            if( windowWidth < 992 ){
-                sticky.addClass('fixed').addClass('fixed-left');
-            } else {
-                sticky.addClass('fixed');
-            }
+            sticky.addClass('fixed');
         }
         else {
             sticky.removeClass('fixed');
-            sticky.removeClass('fixed-left');
-        };
+        }
     });
 
     /* Form Validate */
