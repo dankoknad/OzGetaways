@@ -233,6 +233,19 @@ body {
     padding-right:0px;
 }
 
+.adr-form:last-child {
+    padding-left: 10px;
+}
+
+.adr-form > div {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.adr-form > div:first-child {
+    padding-left: 0px;
+}
+
 #message-circle {
 	position: relative;
 	width: 50px;
@@ -307,7 +320,7 @@ input[type="text"] {
 }
 
 .bold-text:last-child {
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .my-default-navbar {
@@ -609,7 +622,7 @@ input[type="text"] {
 
 .bold-text {
 	font-weight: bold;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	color:#526a72;
 	font-size: 18px;
 
@@ -868,10 +881,6 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 
 #saveChangeButton:hover {
 	background: #4bbbf9;
-}
-
-.adr-form > div {
-    padding: 0px 10px;
 }
 
 /*[class^="icon-"]{*/
