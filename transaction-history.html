@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>OzGetaways</title>
+    <title>Transaction History</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
@@ -149,7 +149,7 @@
 
 
 
-    <div class="container">
+    <div class="container th-container">
       <div class="row">
 
         <div class="col-sm-3">
@@ -185,114 +185,107 @@
               <a href="#">Settings</a>
             </div>
           </div>
+        </div><!-- /.col-sm-3 -->
 
-        </div>
+        <!-- Transaction History wi -->
         <div class="col-sm-9">
-              <div class="row title-container">
-                <p>Transaction History</p>
+          <div class="row title-container">
+            <p>Transaction History</p>
+          </div>
+
+          <!-- Tabs -->
+          <div class="row">
+            <!-- Nav tabs -->
+            <ul class="text-center list-inline" role="tablist">
+              <li role="presentation" class="active"><a href="#property-listers-tab" aria-controls="home" role="tab" data-toggle="tab">Property Listers</a></li>
+              <li role="presentation"><a href="#guests-tab" aria-controls="profile" role="tab" data-toggle="tab">Guests</a></li>
+            </ul>
+
+            <div class="form-group property-date">
+              <div class="form-control div-select" id="property-date">
+                Sort results by property / date
               </div>
 
-              <!-- Tabs -->
-              <div class="row">
-                <!-- Nav tabs -->
-                <ul class="text-center list-inline" role="tablist">
-                  <li role="presentation" class="active"><a href="#property-listers-tab" aria-controls="home" role="tab" data-toggle="tab">Property Listers</a></li>
-                  <li role="presentation"><a href="#guests-tab" aria-controls="profile" role="tab" data-toggle="tab">Guests</a></li>
+              <div class="select">
+                <ul>
+                  <li>Property</li>
+                  <li>Date</li>
                 </ul>
-
-                <div class="form-group property-date">
-                  <div class="form-control div-select" id="property-date">
-                    Sort results by property / date
-                  </div>
-
-                  <div class="select">
-                    <ul>
-                      <li>Property</li>
-                      <li>Date</li>
-                    </ul>
-                  </div>
-                </div>
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="property-listers-tab">
-                    <div class="transaction-history-row">
-                      <div class="hidden-xs">
-                        <div class="th-property-title">Property</div>
-                        <div class="th-dates-title">Dates</div>
-                        <div class="th-guests-title">Guest</div>
-                        <div class="th-fees-title">Fees</div>
-                        <div class="th-netincomes-title">Net Income</div>
-                      </div>
-                      <div class="th-property clearfix">
-                        <img  class="th-img" src="img/hotel.jpg" alt="..">
-                        <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
-                        <div class="th-addons">5 5 5</div>
-                      </div>
-                      <div class="th-dates">
-                        <div class="visible-xs-inline-block th-title">Dates</div>
-                        <div class="th-date">Sep 13, 2014</div>
-                        <div class="th-date">Sep 13, 2014</div>
-                      </div>
-                      <div class="th-guests">
-                        <div class="visible-xs-inline-block th-title">Guest</div>
-                        <img  class="th-img  hidden-xs" src="img/person.jpg" alt="..">
-                        <div class="th-person-name">Michael</div>
-                      </div>
-                      <div class="th-fees">
-                        <div class="visible-xs-inline-block th-title">Fees</div>
-                        <div class="th-fee">&#36; 5,679</div>
-                      </div>
-                      <div class="th-netincomes">
-                        <div class="visible-xs-inline-block th-title">Net Income</div>
-                        <div class="th-netincome">&#36; 579</div>
-                        <a class="btn-rounded blue" href="#">View Receipt</a>
-                      </div>
-                    </div><!-- /.transaction-history-row -->
-
-                    <div class="transaction-history-row">
-                      <div class="hidden-xs">
-                        <div class="th-property-title">Property</div>
-                        <div class="th-dates-title">Dates</div>
-                        <div class="th-guests-title">Guest</div>
-                        <div class="th-fees-title">Fees</div>
-                        <div class="th-netincomes-title">Net Income</div>
-                      </div>
-                      <div class="th-property clearfix">
-                        <img  class="th-img" src="img/hotel.jpg" alt="..">
-                        <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
-                        <div class="th-addons">5 5 5</div>
-                      </div>
-                      <div class="th-dates">
-                        <div class="visible-xs-inline-block th-title">Dates</div>
-                        <div class="th-date">Sep 13, 2014</div>
-                        <div class="th-date">Sep 13, 2014</div>
-                      </div>
-                      <div class="th-guests">
-                        <div class="visible-xs-inline-block th-title">Guest</div>
-                        <img  class="th-img  hidden-xs" src="img/person.jpg" alt="..">
-                        <div class="th-person-name">Michael</div>
-                      </div>
-                      <div class="th-fees">
-                        <div class="visible-xs-inline-block th-title">Fees</div>
-                        <div class="th-fee">&#36; 5,679</div>
-                      </div>
-                      <div class="th-netincomes">
-                        <div class="visible-xs-inline-block th-title">Net Income</div>
-                        <div class="th-netincome">&#36; 579</div>
-                        <a class="btn-rounded blue" href="#">View Receipt</a>
-                      </div>
-                    </div><!-- /.transaction-history-row -->
-                  </div>
-                  <div role="tabpanel" class="tab-pane" id="guests-tab">Guests</div>
-                </div>
-
               </div>
-            </div><!--  /.col-sm-9 -->
-          </div><!--  /.row -->
-        </div><!--  /.container -->
-      </div>
-    </div>
+            </div>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="property-listers-tab">
+                <div class="transaction-history-row">
+                  <div class="hidden-xs">
+                    <div class="th-property-title">Property</div>
+                    <div class="th-dates-title">Dates</div>
+                    <div class="th-guests-title">Guest</div>
+                    <div class="th-fees-title">Fees</div>
+                    <div class="th-netincomes-title">Net Income</div>
+                  </div>
+                  <div class="th-property clearfix">
+                    <img  class="th-img" src="img/hotel.jpg" alt="..">
+                    <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
+                    <div class="th-addons">5 5 5</div>
+                  </div>
+                  <div class="th-dates">
+                    <div class="visible-xs-inline-block th-title">Dates</div>
+                    <div class="th-date">Sep 13, 2014</div>
+                    <div class="th-date">Sep 13, 2014</div>
+                  </div>
+                  <div class="th-guests">
+                    <div class="visible-xs-inline-block th-title">Guest</div>
+                    <img  class="th-img  hidden-xs" src="img/person.jpg" alt="..">
+                    <div class="th-person-name">Michael</div>
+                  </div>
+                  <div class="th-fees">
+                    <div class="visible-xs-inline-block th-title">Fees</div>
+                    <div class="th-fee">&#36; 5,679</div>
+                  </div>
+                  <div class="th-netincomes">
+                    <div class="visible-xs-inline-block th-title">Net Income</div>
+                    <div class="th-netincome">&#36; 579</div>
+                    <a class="btn-rounded blue" href="#">View Receipt</a>
+                  </div>
+                </div><!-- /.transaction-history-row -->
+
+                <div class="transaction-history-row">
+                  <div class="th-property clearfix">
+                    <img  class="th-img" src="img/hotel.jpg" alt="..">
+                    <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
+                    <div class="th-addons">5 5 5</div>
+                  </div>
+                  <div class="th-dates">
+                    <div class="visible-xs-inline-block th-title">Dates</div>
+                    <div class="th-date">Sep 13, 2014</div>
+                    <div class="th-date">Sep 13, 2014</div>
+                  </div>
+                  <div class="th-guests">
+                    <div class="visible-xs-inline-block th-title">Guest</div>
+                    <img  class="th-img  hidden-xs" src="img/person.jpg" alt="..">
+                    <div class="th-person-name">Michael</div>
+                  </div>
+                  <div class="th-fees">
+                    <div class="visible-xs-inline-block th-title">Fees</div>
+                    <div class="th-fee">&#36; 5,679</div>
+                  </div>
+                  <div class="th-netincomes">
+                    <div class="visible-xs-inline-block th-title">Net Income</div>
+                    <div class="th-netincome">&#36; 579</div>
+                    <a class="btn-rounded blue" href="#">View Receipt</a>
+                  </div>
+                </div><!-- /.transaction-history-row -->
+              </div>
+              <div role="tabpanel" class="tab-pane" id="guests-tab">Guests</div>
+            </div><!-- /.tab-content -->
+          </div><!-- /.row -->
+        </div><!--  /.col-sm-9 -->
+      </div><!--  /.row -->
+    </div><!--  /.container -->
+
+
 
     <div class="container-fluid my-footer">
       <div class="container">

@@ -859,7 +859,9 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 /*}*/
 
 
-/*********************/
+/* ==========================================================================
+		Transaction History page
+========================================================================== */
 .property-date {
 	margin: 0 auto;
 	max-width: 255px;
@@ -878,7 +880,11 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 .th-title,
 .th-netincome {
 	display: inline-block;
+	width: 108px;
 } 
+.th-netincome {
+	width: auto;
+}
 .btn-rounded {
 	display: block;
 	width: 120px;
@@ -886,9 +892,12 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 }
 
 @media only screen and (min-width: 768px) {
+	.th-container{
+		width: 100%;
+	} 
 	.transaction-history-row {
-		position: relative;
-		vertical-align: top;
+		padding: 20px 0;
+		font-size: 12px;
 	}
 	.transaction-history-row > div {
 		vertical-align: middle;
@@ -911,31 +920,41 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 	.th-property,
 	.th-property-title {
-		width: 280px;
+		width: 260px;
 	}
 	.th-dates,
 	.th-dates-title {
-		width: 100px;
+		width: 80px;
 	}
 	.th-guests,
 	.th-guests-title {
-		width: 65px;
+		width: 50px;
 	}
 	.th-fees,
 	.th-fees-title {
-		width: 60px;
+		width: 50px;
 	}
 	.th-netincomes,
 	.th-netincomes-title {
-		width: 160px;
+		width: 110px;
 	}
-	.th-netincomes a {
+	.btn-rounded {
+		width: auto;
 		display: inline-block;
 	}
 }
+@media only screen and (min-width: 992px) {
+	.th-container{
+		width: 970px;
+	} 
+}
+@media only screen and (min-width: 1200px) {
+	.th-container{
+		width: 1170px;
+	} 
+}
+/********* End of Transaction History page **************/
 
-
-/***********************/
 @media only screen and (max-width: 768px) {
 	/* For mobile phones: */
 
