@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>OzGetaways</title>
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+	<![endif]-->
+</head>
+<body>
+
+<div class="container-fluid my-header">
+	<div class="row">
+		<div class='col-sm-2 col-xs-12' >
+			<div class="logoDiv">
+				<img src="img/svg/Logo.svg" alt="My Logo">
+				<!--<div id="img_logo">
+				</div>-->
+			</div>
+		</div>
+		<div class="col-sm-10 list-property">
+			<div class="bs-glyphicons">
+				<ul class="bs-glyphicons-list pull-right">
+					<li>List your property</li>
+					<li>
+						<div id="message-circle">
+							<div id="message">
+								<div id="img_message">
+
+								</div>
+
+							</div>
+							<div class="circleDiv">
+								<div class="imgRedCircle">
+
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div id="sky-circle">
+							<div class="skyDiv">
+								<div class="imgSky">
+
+								</div>
+
+							</div>
+							<div class="circleDiv">
+								<div class="imgRedCircle">
+
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div id="circle_person">
+							<div class="personDiv">
+								<div id="personBorder">
+									<img src="img/person.jpg" alt="person user image not found">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div id="weather">
+							<div id="weather_icon">
+
+							</div>
+						</div>
+					</li>
+					<li>
+						<div id="text_weather">Wooloomooloo 17 C<br/> Enter Suburb</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<nav class="navbar-inverse my-default-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed custom-menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div id="mobileLogo">
+				<div class="logoDiv">
+					<img src="img/svg/Logo.svg" alt="My Logo">
+					<!--<div id="img_logo">
+					</div>-->
+				</div>
+			</div>
+			<a class="navbar-brand glyphicon glyphicon-home" href="#"></a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#">Dashboard</a>
+				</li>
+				<li>
+					<a href="#">Listings</a>
+				</li>
+				<li>
+					<a href="#">Bookings / Trips</a>
+				</li>
+				<li>
+					<a href="#">Notifications</a>
+				</li>
+				<li>
+					<a href="#">Account</a>
+				</li>
+				<li>
+					<a href="#">Help Centre</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<div id="my-mobile-navbar">
+    <div class="navbar-inverse">
+        <ul>
+            <li><a href="#">My Profle</a></li>
+            <li><a href="#">Payment Settings</a></li>
+            <li><a href="#">Transaction History</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+
+		<div class="col-sm-4 col-md-3">
+			<div id="icons">
+				<div class="icon">
+					<div id="person-style">
+						<div id="person-icon"></div>
+					</div>
+					<a href="#">My Profle</a>
+				</div>
+				<div class="icon">
+					<div id="payment-style">
+						<div id="payment-icon"></div>
+					</div>
+					<a href="#">Payment Settings</a>
+				</div>
+				<div class="icon">
+					<div id="transaction-style">
+						<div id="transaction-icon"></div>
+					</div>
+					<a href="#">Transaction History</a>
+				</div>
+				<div class="icon">
+					<div id="notifications-style">
+						<div id="notifications-icon"></div>
+					</div>
+					<a href="#">Notifications</a>
+				</div>
+				<div class="icon">
+					<div id="settings-style">
+						<div id="settings-icon"></div>
+					</div>
+					<a href="#">Settings</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-8 col-md-9">
+			<div class="row title-container">
+				<div>
+					<p>Edit Profile</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-5 col-md-4 col-xs-5">
+					<p class="bold-text">Profile picture</p>
+					<img id="profile-picture" src="img/svg/profile_picture.svg" alt="no profile picture">
+				</div>
+				<div class="col-sm-7 col-md-8 col-xs-7">
+					<div id="edit-profile">
+						<div class="row header-caption"><p>Drag & drop your profile picture here</p></div>
+						<div class="row"><div class="col-sm-12 or_text"><span>OR</span></div></div>
+						<div class="row">
+							<div class="col-xs-12 col-md-10 col-md-offset-1">
+								<div class="col-xs-6 col-sm-6">
+									<div class="button browse">
+										<p>Browse</p>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-6">
+									<div class="button webcam">
+										<p>Webcam</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row form-row">
+				<div class="col-sm-12"><p class="bold-text">About Yourself</p></div>
+				<div class="col-sm-12">
+					<form class="form" role="form">
+						<div class="row">
+							<div class="form-group">
+								<div class="form-inline">
+									<div class="form-group col-xs-6">
+										<p class="title-input">First Name</p>
+										<input type="text" class="form-control" id="InputFirstName" placeholder="John">
+									</div>
+									<div class="form-group col-xs-6">
+										<p class="title-input last-name">Last Name </p>
+										<input type="text" class="form-control" id="InputLastName" placeholder="Oliver">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="form-group">
+									<div class="row"><div class="col-sm-12"><p class="title-input">Gender</p></div></div>
+									<div class="row">
+										<div class="col-sm-3 col-xs-3 col-mb-7">
+											<div class="form-control div-select" id="selGender">
+												Male
+											</div>
+											<div class="select">
+												<ul>
+													<li>Male</li>
+													<li>Female</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="row "><div class="col-xs-12"><p class="title-input">Birthday</p></div></div>
+								<div class="row">
+									<div class="from-group">
+										<div class="form-inline">
+											<div class="form-group col-sm-3 col-md-3 col-xs-3  col-mb-6 birthay">
+												<div class="form-control div-select" id="selMonth">
+													June
+												</div>
+
+												<div class="select">
+													<ul>
+														<li>Month</li>
+														<li>Month</li>
+														<li>Month</li>
+														<li>Month</li>
+														<li>Month</li>
+														<li>Month</li>
+													</ul>
+												</div>
+											</div>
+											<div class="form-group col-sm-3 col-md-2 col-xs-3  col-mb-3 birthay">
+												<div class="form-control div-select" id="selDay">
+												   1th
+												</div>
+												<div class="select">
+													<ul>
+														<li>1th</li>
+														<li>2th</li>
+														<li>3th</li>
+														<li>4th</li>
+														<li>5th</li>
+														<li>6th</li>
+													</ul>
+												</div>
+											</div>
+											<div class="form-group col-sm-3 col-md-2 col-xs-3  col-mb-3  birthay">
+												<div class="form-control div-select" id="selYear">
+													1988
+												</div>
+												<div class="select">
+													<ul>
+														<li>1988</li>
+														<li>1989</li>
+														<li>1990</li>
+														<li>1991</li>
+														<li>1992</li>
+														<li>1993</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group">
+								<div class="form-group col-xs-7 col-mb-12">
+									<p class="title-input">What Highschool Did You Go To? </p>
+									<input type="text" class="form-control" id="inputSign" placeholder="Eureka School">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="form-group">
+								<div class="form-group col-xs-7 col-mb-12">
+									<p class="title-input">What Do You Do For Work? </p>
+									<input type="text" class="form-control" id="inputWork" placeholder="I am Programer">
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-7 col-xs-7 col-mb-12">
+								<div class="form-group">
+									<p class="title-input">About you</p>
+									<textarea class="form-control" rows="8" id="aboutTextarea" placeholder="I am John Oliver..."></textarea>
+								</div>
+							</div>
+							<div class="col-sm-1 col-xs-1 col-mb-1 icon-textarea">a</div>
+							<div class="col-sm-4 col-xs-4 col-mb-11 text-description">
+								<div id="text-telling">
+									<p>Start by telling users about your property.</p>
+									<p>Describe the main rooms of the house and
+									what type of experience it offers guests.</p>
+									<p>Talk about surrounding areas and attractions.</p>
+									<p>Describe the amenities and facilities the house
+									has. You should describe these in detail.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group">
+								<div class="form-inline">
+									<div class="col-sm-12 font-header"><p class="bold-text">Address</p></div>
+
+									<div class="col-sm-12 col-md-5 adr-form">
+										<div class="form-group col-sm-2 col-md-3 col-xs-2 col-mb-6">
+											<p class="title-input">Unit </p>
+											<input type="text" class="form-control" id="InputUnit" placeholder="3">
+										</div>
+										<div class="form-group col-sm-2 col-md-3 col-xs-2 col-mb-6">
+											<p class="title-input">Street No</p>
+											<input type="text" class="form-control" id="InputStreetNo" placeholder="152">
+										</div>
+										<div class="form-group col-sm-8 col-md-6 col-xs-8 col-mb-12">
+											<p class="title-input mobile-padding not-middle">Street Name </p>
+											<input type="text" class="form-control" id="InputStreetName" placeholder="Oliver">
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-7 adr-form">
+										<div class="form-group col-sm-8 col-xs-8 col-mb-12 col-md-6">
+											<p class="title-input  mobile-padding">Suburb </p>
+											<input type="text" class="form-control" id="InputSuburb" placeholder="Chickago">
+										</div>
+										<div class="form-group col-sm-2 col-xs-2 col-mb-6 col-md-3">
+											<p class="title-input mobile-padding">Postcode </p>
+											<input type="text" class="form-control" id="InputPostCode" placeholder="2324">
+										</div>
+										<div class="form-group col-sm-2 col-xs-2 col-mb-6 col-md-3">
+											<p class="title-input mobile-padding">State </p>
+                                            <div>
+                                                <div class="form-control div-select" id="InputState">
+
+                                                </div>
+                                                <div class="select">
+                                                    <ul>
+                                                        <li>Germany</li>
+                                                        <li>France</li>
+                                                        <li>Russia</li>
+                                                        <li>Spain</li>
+                                                        <li>Italy</li>
+                                                        <li>Canada</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid my-footer">
+	<div class="container">
+		<div id="saveChangeButton">Save Changes</div>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+</html>
