@@ -971,6 +971,9 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	display: inline-block;
 	width: 108px;
 } 
+.th-fee {
+	width: auto;
+}
 .th-property-titles,
 .th-title {
 	font-weight: 700;
@@ -985,12 +988,26 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 .th-netincome {
 	width: auto;
 }
-.btn-rounded {
-	display: block;
-	width: 120px;
-	margin: 0 auto;
+.btn {
+	border-radius: 20px;
+	padding: 0 20px;
+	line-height: 20px;
 }
-
+.btn:hover {
+	color: #fff;
+}
+.btn-blue {
+	color: #fff;
+	background-color: #31acff;
+}
+.btn-blue:hover {
+	background-color: #4bbbf9;
+}
+.th-netincomes .btn {
+	display: block;
+	max-width: 120px;
+	margin: 35px auto;
+}
 @media only screen and (min-width: 768px) {
 	.th-container{
 		width: 100%;
@@ -1017,29 +1034,35 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	.th-netincomes-title {
 		display: inline-block;
 	}
+	.th-person-name {
+		width: auto;
+	}
 	.th-property,
 	.th-property-title {
-		width: 290px;
+		width: 280px;
 	}
 	.th-dates,
 	.th-dates-title {
-		width: 110px;
+		width: 90px;
+		text-align: center;
 	}
 	.th-guests,
 	.th-guests-title {
-		width: 80px;
+		width: 70px;
+		text-align: center;
 	}
 	.th-fees,
 	.th-fees-title {
-		width: 70px;
+		width: 50px;
+		text-align: center;
 	}
 	.th-netincomes,
 	.th-netincomes-title {
 		width: auto;
 	}
-	.btn-rounded {
-		width: auto;
+	.th-netincomes .btn {
 		display: inline-block;
+		margin: 0 0 0 15px;
 	}
 }
 @media only screen and (min-width: 992px) {
@@ -1054,7 +1077,42 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	.th-container{
 		width: 1170px;
 	}
-
+	.th-guests,
+	.th-guests-title {
+		width: 120px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+/*  body {
+  	background-color: red;
+  }*/
+}
+@media screen and (min-width: 768px) and (max-width: 991px),
+screen and (min-width: 1200px) {
+/*  body {
+  	background-color: green;
+  }*/
+  th-property,
+	.th-property-title {
+		width: 290px;
+	}
+	.th-dates,
+	.th-dates-title {
+		width: 100px;
+	}
+	.th-guests,
+	.th-guests-title {
+		width: 120px;
+		text-align: center;
+	}
+	.th-fees,
+	.th-fees-title {
+		width: 70px;
+	}
+.th-netincomes .btn {
+		display: inline-block;
+		margin: 0 0 0 25px;
+	}
 }
 /********* End of Transaction History page **************/
 
