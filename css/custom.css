@@ -1022,6 +1022,14 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	.th-title {
 		display: block;
 	}
+	.th-title,
+	.th-date,
+	.th-person-name,
+	.th-fee,
+	.th-title,
+	.th-netincome {
+		width: auto;
+	} 
 	.th-property,
 	.th-dates,
 	.th-guests,
@@ -1039,7 +1047,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 	.th-property,
 	.th-property-title {
-		width: 280px;
+		width: 275px;
 	}
 	.th-dates,
 	.th-dates-title {
@@ -1053,7 +1061,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 	.th-fees,
 	.th-fees-title {
-		width: 50px;
+		width: 55px;
 		text-align: center;
 	}
 	.th-netincomes,
@@ -1082,34 +1090,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		width: 120px;
 	}
 }
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-/*  body {
-  	background-color: red;
-  }*/
-}
-@media screen and (min-width: 768px) and (max-width: 991px),
-screen and (min-width: 1200px) {
-/*  body {
-  	background-color: green;
-  }*/
-  th-property,
-	.th-property-title {
-		width: 290px;
-	}
-	.th-dates,
-	.th-dates-title {
-		width: 100px;
-	}
-	.th-guests,
-	.th-guests-title {
-		width: 100px;
-		text-align: center;
-	}
-	.th-fees,
-	.th-fees-title {
-		width: 70px;
-	}
-}
+
 /********* End of Transaction History page **************/
 
 
