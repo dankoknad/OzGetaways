@@ -895,6 +895,9 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 /* ==========================================================================
 		Transaction History page
 ========================================================================== */
+.th-hide-md {
+	display: none;
+}
 .property-date {
 	margin: 0 auto;
 	max-width: 255px;
@@ -929,7 +932,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		width: 100%;
 	} 
 	.transaction-history-row {
-		padding: 20px 0;
+		/*padding: 20px 0;*/
 		font-size: 12px;
 	}
 	.transaction-history-row > div {
@@ -980,6 +983,9 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	.th-container{
 		width: 970px;
 	} 
+	.th-hide-md {
+		display: block;
+	}
 }
 @media only screen and (min-width: 1200px) {
 	.th-container{
