@@ -153,11 +153,17 @@
   font-weight: 300;
   font-style: normal;
 	font-size: 32px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 /* end of general styles */
 body {
-	font-family: 'Avenir LT Std';
+  font-family: 'Avenir LT Std';
+  font-weight: normal;
+  font-style: normal;
 	color:#919ea3;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .my-header {
