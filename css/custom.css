@@ -1009,7 +1009,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 	.th-property,
 	.th-property-title {
-		width: 280px;
+		width: 290px;
 	}
 	.th-dates,
 	.th-dates-title {
@@ -1025,7 +1025,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 	.th-netincomes,
 	.th-netincomes-title {
-		width: 130px;
+		width: auto;
 	}
 	.btn-rounded {
 		width: auto;
