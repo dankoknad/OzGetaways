@@ -1011,15 +1011,15 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	}
 	.th-dates,
 	.th-dates-title {
-		width: 80px;
+		width: 110px;
 	}
 	.th-guests,
 	.th-guests-title {
-		width: 50px;
+		width: 80px;
 	}
 	.th-fees,
 	.th-fees-title {
-		width: 50px;
+		width: 70px;
 	}
 	.th-netincomes,
 	.th-netincomes-title {
