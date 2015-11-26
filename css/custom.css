@@ -1102,16 +1102,12 @@ screen and (min-width: 1200px) {
 	}
 	.th-guests,
 	.th-guests-title {
-		width: 120px;
+		width: 100px;
 		text-align: center;
 	}
 	.th-fees,
 	.th-fees-title {
 		width: 70px;
-	}
-.th-netincomes .btn {
-		display: inline-block;
-		margin: 0 0 0 25px;
 	}
 }
 /********* End of Transaction History page **************/
