@@ -196,8 +196,8 @@
           <div class="row">
             <!-- Nav tabs -->
             <ul class="text-center list-inline" role="tablist">
-              <li role="presentation" class="active"><a href="#property-listers-tab" aria-controls="home" role="tab" data-toggle="tab">Property Listers</a></li>
-              <li role="presentation"><a href="#guests-tab" aria-controls="profile" role="tab" data-toggle="tab">Guests</a></li>
+              <li class="blue-tabs active" role="presentation" class="active"><a href="#property-listers-tab" aria-controls="property-listers-tab" role="tab" data-toggle="tab">Property Listers</a></li>
+              <li class="blue-tabs" role="presentation"><a href="#guests-tab" aria-controls="guests-tab" role="tab" data-toggle="tab">Guests</a></li>
             </ul>
 
             <div class="form-group property-date">
@@ -216,14 +216,14 @@
             <!-- Tab panes -->
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="property-listers-tab">
+                <div class="hidden-xs th-property-titles">
+                  <div class="th-property-title">Property</div>
+                  <div class="th-dates-title">Dates</div>
+                  <div class="th-guests-title">Guest</div>
+                  <div class="th-fees-title">Fees</div>
+                  <div class="th-netincomes-title">Net Income</div>
+                </div>
                 <div class="transaction-history-row">
-                  <div class="hidden-xs">
-                    <div class="th-property-title">Property</div>
-                    <div class="th-dates-title">Dates</div>
-                    <div class="th-guests-title">Guest</div>
-                    <div class="th-fees-title">Fees</div>
-                    <div class="th-netincomes-title">Net Income</div>
-                  </div>
                   <div class="th-property clearfix">
                     <img  class="th-img" src="img/hotel.jpg" alt="..">
                     <div class="th-address">23 / 2 - 9 Mitchell Avenue North Arm Cove, NSW</div>
