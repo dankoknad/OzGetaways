@@ -941,7 +941,6 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		width: 100%;
 	} 
 	.transaction-history-row {
-		/*padding: 20px 0;*/
 		font-size: 12px;
 	}
 	.transaction-history-row > div {
