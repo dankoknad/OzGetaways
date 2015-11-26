@@ -925,10 +925,8 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	display: none;
 }
 .blue-tabs {
-	width: 150px;
 	margin-right: -4px;
-	line-height: 40px;
-	border: 1px solid #31acff;
+	border: 2px solid #31acff;
 	background-color: #fff;
 	color: #31acff;
 }
@@ -937,6 +935,10 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	color: #fff;
 }
 .blue-tabs a {
+	display: inline-block;
+	width: 150px;
+	line-height: 36px;
+	display: inline-block;
 	font-size: 16px;
 	color: inherit;
 	text-decoration: none;
