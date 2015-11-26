@@ -989,9 +989,6 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		padding-top: 20px;
 		border-top: 1px solid #d7d9dd;
 	}
-	.th-property-titles {
-		/*margin: 20px 0;*/
-	}
 	.transaction-history-row > div {
 		vertical-align: middle;
 	}
