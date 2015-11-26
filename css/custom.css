@@ -1,166 +1,12 @@
 @font-face {
-    font-family: 'Glyphicons Halflings';
-    src: url('../fonts/Bootstrap/glyphicons-halflings-regular.eot');
-    src: url('../fonts/Bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/Bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/Bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+	font-family: Avenir;
+	src: url(../fonts/Avenir/AvenirNextLTPro-Regular.otf);
 }
 
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-BookOblique.eot');
-    src: url('../fonts/AvenirLTStd-BookOblique.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-BookOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStd-BookOblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
 
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Black.eot');
-    src: url('../fonts/AvenirLTStd-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Black.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Oblique.eot');
-    src: url('../fonts/AvenirLTStd-Oblique.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Oblique.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Oblique.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-LightOblique.eot');
-    src: url('../fonts/AvenirLTStd-LightOblique.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-LightOblique.woff') format('woff'),
-    url('../fonts/AvenirLTStd-LightOblique.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Book.eot');
-    src: url('../fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Book.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Book.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Heavy.eot');
-    src: url('../fonts/AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Heavy.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Heavy.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Roman.eot');
-    src: url('../fonts/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Roman.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Roman.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Medium.eot');
-    src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Medium.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Avenir LT Std';
-    src: url('../fonts/AvenirLTStd-Light.eot');
-    src: url('../fonts/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AvenirLTStd-Light.woff') format('woff'),
-    url('../fonts/AvenirLTStd-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-/* ==========================================================================
-		GENERAL STYLES
-========================================================================== */
-/* fonts demo styles which are here temporarily*/
-.demo-0 {
-    font-family: 'Avenir LT Std';
-    font-weight: normal;
-    font-style: italic;
-}
-.demo-1 {
-    font-family: 'Avenir LT Std';
-    font-weight: 900;
-    font-style: normal;
-}
-.demo-2 {
-    font-family: 'Avenir LT Std';
-    font-weight: normal;
-    font-style: italic;
-}
-.demo-3 {
-    font-family: 'Avenir LT Std';
-    font-weight: 300;
-    font-style: italic;
-}
-.demo-4 {
-    font-family: 'Avenir LT Std';
-    font-weight: normal;
-    font-style: normal;
-}
-.demo-5 {
-    font-family: 'Avenir LT Std';
-    font-weight: 900;
-    font-style: normal;
-}
-.demo-6 {
-    font-family: 'Avenir LT Std';
-    font-weight: normal;
-    font-style: normal;
-}
-.demo-7 {
-    font-family: 'Avenir LT Std';
-    font-weight: 500;
-    font-style: normal;
-}
-.demo-8 {
-    font-family: 'Avenir LT Std';
-    font-weight: 300;
-    font-style: normal;
-}
-
-.h2 {
-	margin: 30px 0;
-	font-family: 'Avenir LT Std';
-  font-weight: 300;
-  font-style: normal;
-	font-size: 32px;
-  text-align: center;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-/* end of general styles */
 body {
-  font-family: 'Avenir LT Std';
-  font-weight: normal;
-  font-style: normal;
+	font-family: Avenir;
 	color:#919ea3;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 .my-header {
@@ -187,22 +33,9 @@ body {
 	text-indent: 0.01px;
 }
 
-#InputState {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	background: url('../img/svg/arrow_up.svg') no-repeat;
-	background-position:  right 10px center;
-	background-size: 15px 8px;
-	text-indent: 0.01px;
-}
-
 .fixed {
 	position: fixed;
-    top:0;
-}
-
-.fixed-left {
-    left:10px;
+	top:0;
 }
 
 .logoDiv img {
@@ -225,15 +58,6 @@ body {
 	font-size:12px;
 }
 
-#icons a:hover, a:active, a:focus {
-    outline: none;
-    border:none;
-}
-
-.glyphicon {
-    top:0px;
-}
-
 .navbar-nav > li > a, .navbar-brand {
 	padding-top:12px !important;
 	padding-bottom:0 !important;
@@ -241,38 +65,10 @@ body {
 }
 .navbar {min-height:42px !important;}
 
-.adr-form {
-    padding-right:0px;
-}
-
-.adr-form:last-child {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.adr-form:last-child > div:nth-child(3) {
-    padding-right:15px;
-}
-
-.adr-form > div {
-    padding-left: 10px;
-    padding-right: 0px;
-}
-
-.adr-form > div:first-child {
-    padding-left: 0px;
-}
-
 #message-circle {
 	position: relative;
 	width: 50px;
-	padding: 9px 10px;
-}
-
-input[type="text"] {
-    -moz-box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
+	padding: 7px 10px;
 }
 
 .drop-down-view {
@@ -317,7 +113,7 @@ input[type="text"] {
 #sky-circle {
 	position: relative;
 	width: 50px;
-	padding: 9px 10px;
+	padding: 7px 10px;
 }
 
 .skyDiv {
@@ -336,48 +132,40 @@ input[type="text"] {
 
 }
 
-.bold-text:last-child {
-    margin-top: 20px;
-}
-
 .my-default-navbar {
 	display:block;
+	padding-left: 7%;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
 	background: #566f77;
 }
 
-#my-mobile-navbar {
-    overflow:hidden;
-}
-
-#my-mobile-navbar > div {
+.my-mobile-navbar {
 	display:none;
 }
 
-#my-mobile-navbar > div > ul {
+.my-mobile-navbar > ul {
 	list-style: none;
-    width:768px;
 }
 
-#my-mobile-navbar > div > ul > li {
+.my-mobile-navbar > ul > li {
 	display: inline-block;
  }
 
-#my-mobile-navbar > div > ul > li > a {
+.my-mobile-navbar > ul > li > a {
 	color:#fff;
 	display: block;
-	padding: 11px 15px;
+	padding: 10px 15px;
 }
 
 #mobileLogo{
 	display:none;
 }
 
-#my-mobile-navbar > div > ul > li > a:hover {
+.my-mobile-navbar > ul > li > a:hover {
 	text-decoration: none;
-	background: #566f77;
+	background: #58707F;
 }
 
 .person-margin {
@@ -397,7 +185,7 @@ input[type="text"] {
 	width: 30px;
 	height: 30px;
 	overflow: hidden;
-	margin: 1px auto;
+	margin: 0 auto;
 }
 
 .personBorder {
@@ -411,7 +199,8 @@ input[type="text"] {
 #text_weather {
 	text-align: center;
 	float: left;
-	margin-top: -3px;
+	margin-top: -6px;
+	margin-top: -6px;
 	margin-right: 10px;
 }
 
@@ -460,6 +249,7 @@ input[type="text"] {
 	height: 40px;
 	overflow: hidden;
 	float: left;
+	margin-top: -3px;
 }
 
 #weather_icon {
@@ -471,7 +261,7 @@ input[type="text"] {
 }
 
 .navbar-inverse {
-	background: #405b63;
+	background: #475f68;
 	border-radius: 0px;
 	margin: 0px;
 }
@@ -491,7 +281,7 @@ input[type="text"] {
 }
 
 #icons {
-	padding-top: 40px;
+	margin-top: 40px;
 }
 
 #person-style {
@@ -590,6 +380,10 @@ input[type="text"] {
 	height: 200px;
 }
 
+.padding-none {
+	padding:0px;
+}
+
 #settings-style {
 	width: 40px;
 	height: 40px;
@@ -639,7 +433,7 @@ input[type="text"] {
 
 .bold-text {
 	font-weight: bold;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	color:#526a72;
 	font-size: 18px;
 
@@ -657,13 +451,13 @@ input[type="text"] {
 
 #profile-picture {
 	width: 193px;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 #edit-profile {
 	border: 2px dashed #dae3e5;
 	text-align: center;
-	margin-top: 53px;
+	margin-top: 74px;
 	padding: 30px;
 }
 
@@ -767,7 +561,6 @@ input[type="text"] {
 
 .div-select {
 	padding-top: 9px;
-    cursor:pointer;
 }
 
 .div-select-click {
@@ -799,7 +592,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 }
 
 .form > .row:first-child {
-	padding-top: 0px;
+	padding-top: 10px;
 }
 
 .birthay {
@@ -808,7 +601,6 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 
 .select {
 	display:block;
-    z-index: 30;
 	position: relative;
 }
 
@@ -889,7 +681,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	float: right;
 	height: 40px;
 	color: #fff;
-	padding-top: 9px;
+	padding-top: 10px;
 	margin-top:30px;
 	cursor:pointer;
 	font-size:16px;
@@ -900,300 +692,31 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	background: #4bbbf9;
 }
 
+
+
 /*[class^="icon-"]{*/
-/*display: block;*/
-/*background: url("../img/icons.svg");*/
-/*text-indent: 100%;*/
+	/*display: block;*/
+	/*background: url("../img/icons.svg");*/
+	/*text-indent: 100%;*/
 /*}*/
 
 /*.icon-message {*/
-/*background-position: ;*/
+	/*background-position: ;*/
 /*}*/
 
-@media only screen and (max-width: 1199px) {
-    .adr-form > div {
-        padding: 0px 5px;
-    }
-}
 
 
-
-/* ==========================================================================
-		Transaction History page
-========================================================================== */
-.th-hide-md {
-	display: none;
-}
-.blue-tabs {
-	margin-right: -4px;
-	border: 2px solid #31acff;
-	background-color: #fff;
-	color: #31acff;
-}
-.blue-tabs:first-child {
-	border-top-left-radius: 2px;
-	border-bottom-left-radius: 2px;
-}
-.blue-tabs +.blue-tabs {
-	border-top-right-radius: 2px;
-	border-bottom-right-radius: 2px;
-}
-.blue-tabs.active {
-	background-color: #31acff;
-	color: #fff;
-}
-.blue-tabs a {
-	display: inline-block;
-	width: 150px;
-	line-height: 36px;
-	display: inline-block;
-	font-size: 16px;
-	color: inherit;
-	text-decoration: none;
-} 
-.property-date {
-	margin: 0 auto;
-	max-width: 255px;
-}
-.transaction-history-row {
-	margin: 20px;
-}
-.th-img {
-	float: left;
-	margin-right: 15px;
-}
-.th-title,
-.th-date,
-.th-person-name,
-.th-fee,
-.th-title,
-.th-netincome {
-	display: inline-block;
-	width: 108px;
-} 
-.th-fee {
-	width: auto;
-}
-.th-property-titles,
-.th-title {
-	font-weight: 700;
-	color: #717171;
-}
-.th-property-titles {
-	margin: 0 20px;
-	margin-top: 40px;
-	margin-bottom: 15px;
-}
-
-.th-netincome {
-	width: auto;
-}
-.btn {
-	border-radius: 20px;
-	padding: 0 20px;
-	line-height: 20px;
-}
-.btn:hover {
-	color: #fff;
-}
-.btn-blue {
-	color: #fff;
-	background-color: #31acff;
-}
-.btn-blue:hover {
-	background-color: #4bbbf9;
-}
-.th-netincomes .btn {
-	display: block;
-	max-width: 120px;
-	margin: 35px auto;
-}
-@media only screen and (min-width: 768px) {
-	.th-container{
-		width: 100%;
-	} 
-	.transaction-history-row {
-		padding-top: 20px;
-		border-top: 1px solid #d7d9dd;
-	}
-	.transaction-history-row > div {
-		vertical-align: middle;
-	}
-	.th-title {
-		display: block;
-	}
-	.th-property,
-	.th-dates,
-	.th-guests,
-	.th-fees,
-	.th-netincomes,
-	.th-property-title,
-	.th-dates-title,
-	.th-guests-title,
-	.th-fees-title,
-	.th-netincomes-title {
-		display: inline-block;
-	}
-	.th-person-name {
-		width: auto;
-	}
-	.th-property,
-	.th-property-title {
-		width: 280px;
-	}
-	.th-dates,
-	.th-dates-title {
-		width: 90px;
-		text-align: center;
-	}
-	.th-guests,
-	.th-guests-title {
-		width: 70px;
-		text-align: center;
-	}
-	.th-fees,
-	.th-fees-title {
-		width: 50px;
-		text-align: center;
-	}
-	.th-netincomes,
-	.th-netincomes-title {
-		width: auto;
-	}
-	.th-netincomes .btn {
-		display: inline-block;
-		margin: 0 0 0 15px;
-	}
-}
-@media only screen and (min-width: 992px) {
-	.th-container{
-		width: 970px;
-	} 
-	.th-hide-md {
-		display: block;
-	}
-}
-@media only screen and (min-width: 1200px) {
-	.th-container{
-		width: 1170px;
-	}
-	.th-guests,
-	.th-guests-title {
-		width: 120px;
-	}
-}
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-/*  body {
-  	background-color: red;
-  }*/
-}
-@media screen and (min-width: 768px) and (max-width: 991px),
-screen and (min-width: 1200px) {
-/*  body {
-  	background-color: green;
-  }*/
-  th-property,
-	.th-property-title {
-		width: 290px;
-	}
-	.th-dates,
-	.th-dates-title {
-		width: 100px;
-	}
-	.th-guests,
-	.th-guests-title {
-		width: 120px;
-		text-align: center;
-	}
-	.th-fees,
-	.th-fees-title {
-		width: 70px;
-	}
-.th-netincomes .btn {
-		display: inline-block;
-		margin: 0 0 0 25px;
-	}
-}
-/********* End of Transaction History page **************/
-
-
-@media only screen and (max-width: 991px) {
-    .mobile-padding {
-        padding-top:20px;
-    }
-
-    .not-middle {
-        padding-top:0px;
-    }
-
-    #edit-profile {
-        padding:20px;
-    }
-
-    #edit-profile .col-sm-6:first-child {
-        padding-left:0px;
-        padding-right:5px;
-    }
-
-    #edit-profile .col-sm-6:last-child {
-        padding-right:0px;
-        padding-left:5px;
-    }
-
-    .adr-form {
-        padding:0px;
-    }
-
-    .adr-form:last-child {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .adr-form > div {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .adr-form > div:first-child {
-        padding-left: 15px;
-    }
-
-    .adr-form:last-child > div:nth-child(3) {
-        padding-right:10px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 	/* For mobile phones: */
 
 	.my-default-navbar {
 		padding-left:0px;
 	}
 
-    #edit-profile .col-sm-6:first-child {
-        padding-left:15px;
-        padding-right:15px;
-    }
-
-    #edit-profile .col-sm-6:last-child {
-        padding-right:15px;
-        padding-left:15px;
-    }
-
 	.navbar-nav,.navbar-inverse .navbar-nav > li > a,.glyphicon-home {
 		height:100%;
-        text-align: center;
 	}
 
-    #my-mobile-navbar > div > ul > li > a:focus {
-        outline: none;
-        text-decoration: none;
-        box-shadow:0px 0px 0px rgba(0,0,0,0);
-    }
-
-    #my-mobile-navbar {
-        height:42px;
-    }
 	.navbar-nav > li > a, .navbar-brand {
 		padding-top:10px !important;
 		padding-bottom:10px !important;
@@ -1203,9 +726,8 @@ screen and (min-width: 1200px) {
 		display: none;
 	}
 
-	#my-mobile-navbar > div {
+	.my-mobile-navbar {
 		display:block;
-        overflow-x: scroll;
 	}
 
 	#mobileLogo{
@@ -1220,38 +742,7 @@ screen and (min-width: 1200px) {
 		display:none;
 	}
 
-    .adr-form {
-        padding:0px;
-    }
-
-    .adr-form:last-child {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .adr-form > div {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .adr-form > div:first-child {
-        padding-left: 15px;
-    }
-
-    .adr-form > div:last-child {
-        padding-left: 15px;
-    }
-
-    .adr-form:last-child > div:nth-child(2) {
-        padding-left: 15px;
-    }
-
-    .adr-form:last-child > div:nth-child(3) {
-        padding-left: 10px;
-    }
-
-
-    #selDay,#selYear {
+	#selDay,#selYear {
 		width:100%;
 	}
 
@@ -1301,7 +792,7 @@ screen and (min-width: 1200px) {
 
 	#profile-picture {
 		width:160px;
-		margin-top: 20px;
+		margin-top: 48px;
 	}
 
 	.logoDiv {
@@ -1317,7 +808,6 @@ screen and (min-width: 1200px) {
 	#saveChangeButton {
 		float:none;
 		margin: 55px auto;
-        display: block;
 	}
 
 }
@@ -1325,13 +815,14 @@ screen and (min-width: 1200px) {
 @media only screen and (max-width: 520px) {
 	#edit-profile {
 		border:none;
-		margin-top: 12px;
+		margin-top: 34px;
 		padding: 30px 0px;
 	}
 
 	#edit-profile  .col-sm-6{
 		padding:0px;
 	}
+
 
 	#selDay,#selYear {
 		width:100%;
@@ -1345,7 +836,7 @@ screen and (min-width: 1200px) {
 
 	#profile-picture {
 		width:93px;
-		margin-top: 6px;
+		margin-top: 17px;
 	}
 
 	.bold-text {
@@ -1357,15 +848,11 @@ screen and (min-width: 1200px) {
 	}
 
 	.title-input {
-		font-size:14px;
+		font-size:18px;
 	}
 
 	.col-xs-6 {
 		width: 100%;
-	}
-
-	.last-name {
-		margin-top:40px;
 	}
 
 	.button-body {
@@ -1384,7 +871,7 @@ screen and (min-width: 1200px) {
 
 	.text-description {
 		width: 270px;
-		margin-top:20px;
+		margin-top:4px;
 	}
 
 	#text-telling {
@@ -1451,3 +938,4 @@ screen and (min-width: 1200px) {
 		margin-top:30px;
 	}
 }
+
