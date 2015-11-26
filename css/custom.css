@@ -235,6 +235,11 @@ body {
 
 .adr-form:last-child {
     padding-left: 10px;
+    padding-right: 10px;
+}
+
+.adr-form:last-child > div:nth-child(3) {
+    padding-right:15px;
 }
 
 .adr-form > div {
@@ -640,13 +645,13 @@ input[type="text"] {
 
 #profile-picture {
 	width: 193px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #edit-profile {
 	border: 2px dashed #dae3e5;
 	text-align: center;
-	margin-top: 74px;
+	margin-top: 53px;
 	padding: 30px;
 }
 
@@ -1008,15 +1013,6 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
         padding-top:0px;
     }
 
-    .adr-form > div {
-        padding-left: 10px;
-        padding-right: 0px;
-    }
-
-    .adr-form > div:first-child {
-        padding-left: 0px;
-    }
-
     #edit-profile {
         padding:20px;
     }
@@ -1029,6 +1025,28 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
     #edit-profile .col-sm-6:last-child {
         padding-right:0px;
         padding-left:5px;
+    }
+
+    .adr-form {
+        padding:0px;
+    }
+
+    .adr-form:last-child {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .adr-form > div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .adr-form > div:first-child {
+        padding-left: 15px;
+    }
+
+    .adr-form:last-child > div:nth-child(3) {
+        padding-right:10px;
     }
 }
 
@@ -1089,7 +1107,38 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 		display:none;
 	}
 
-	#selDay,#selYear {
+    .adr-form {
+        padding:0px;
+    }
+
+    .adr-form:last-child {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .adr-form > div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .adr-form > div:first-child {
+        padding-left: 15px;
+    }
+
+    .adr-form > div:last-child {
+        padding-left: 15px;
+    }
+
+    .adr-form:last-child > div:nth-child(2) {
+        padding-left: 15px;
+    }
+
+    .adr-form:last-child > div:nth-child(3) {
+        padding-left: 10px;
+    }
+
+
+    #selDay,#selYear {
 		width:100%;
 	}
 
@@ -1139,7 +1188,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 
 	#profile-picture {
 		width:160px;
-		margin-top: 35px;
+		margin-top: 20px;
 	}
 
 	.logoDiv {
@@ -1163,14 +1212,13 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 @media only screen and (max-width: 520px) {
 	#edit-profile {
 		border:none;
-		margin-top: 34px;
+		margin-top: 12px;
 		padding: 30px 0px;
 	}
 
 	#edit-profile  .col-sm-6{
 		padding:0px;
 	}
-
 
 	#selDay,#selYear {
 		width:100%;
@@ -1184,7 +1232,7 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 
 	#profile-picture {
 		width:93px;
-		margin-top: 17px;
+		margin-top: 6px;
 	}
 
 	.bold-text {
