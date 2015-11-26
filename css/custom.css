@@ -253,6 +253,10 @@ input[type="text"] {
     box-shadow: none !important;
 }
 
+.title-input {
+    white-space: nowrap;
+}
+
 .drop-down-view {
 	background :url('../img/svg/arrow_down.svg') no-repeat;
 	background-position: right 10px center;
@@ -290,6 +294,41 @@ input[type="text"] {
 	background-position: -231px -57px;
 	width: 480px;
 	height: 200px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nopaddingleft {
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+    margin: 0 !important;
+}
+
+.nopaddingright {
+    padding-right: 0 !important;
+    padding-left: 10px !important;
+    margin: 0 !important;
+}
+
+.adr-form:nth-child(2) {
+    padding-right:10px;
+}
+
+.adr-form:nth-child(3){
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.adr-form:nth-child(4) {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.adr-form:nth-child(5) {
+    padding-left:10px;
 }
 
 #sky-circle {
@@ -1080,6 +1119,12 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
     #my-mobile-navbar {
         height:42px;
     }
+
+    .adr-form {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
 	.navbar-nav > li > a, .navbar-brand {
 		padding-top:10px !important;
 		padding-bottom:10px !important;
