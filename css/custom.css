@@ -98,7 +98,9 @@
     font-weight: 300;
     font-style: normal;
 }
-
+/* ==========================================================================
+		GENERAL STYLES
+========================================================================== */
 /* fonts demo styles which are here temporarily*/
 .demo-0 {
     font-family: 'Avenir LT Std';
@@ -146,6 +148,13 @@
     font-style: normal;
 }
 
+.h2 {
+	font-family: 'Avenir LT Std';
+  font-weight: 300;
+  font-style: normal;
+	font-size: 32px;
+}
+/* end of general styles */
 body {
 	font-family: 'Avenir LT Std';
 	color:#919ea3;
