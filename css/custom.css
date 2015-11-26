@@ -930,6 +930,14 @@ input[type=text]:-ms-input-placeholder {color:#bac3c6;}
 	background-color: #fff;
 	color: #31acff;
 }
+.blue-tabs:first-child {
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.blue-tabs +.blue-tabs {
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
 .blue-tabs.active {
 	background-color: #31acff;
 	color: #fff;
